@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/supermercado.dir/link.d CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o CMakeFiles/supermercado.dir/src/main.cpp.o -o supermercado

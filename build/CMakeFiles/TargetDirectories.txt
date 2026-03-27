@@ -1,0 +1,3 @@
+/home/mauricio/Escritorio/Tarea/Estructura de Datos/Proyecto 1/build/CMakeFiles/supermercado.dir
+/home/mauricio/Escritorio/Tarea/Estructura de Datos/Proyecto 1/build/CMakeFiles/edit_cache.dir
+/home/mauricio/Escritorio/Tarea/Estructura de Datos/Proyecto 1/build/CMakeFiles/rebuild_cache.dir

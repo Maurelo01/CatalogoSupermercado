@@ -50,7 +50,7 @@ class ListaEnlazada
             }
         }
 
-        Producto* buscarSecuencia(string nombreBuscado)
+        Producto* buscarSecuencia(std::string nombreBuscado)
         {
             Nodo* actual = cabeza;
             while (actual != nullptr)
@@ -64,7 +64,7 @@ class ListaEnlazada
             return nullptr;
         }
 
-        bool eliminar(string codigo)
+        bool eliminar(std::string codigo)
         {
             Nodo* actual = cabeza;
             Nodo* anterior = nullptr;
@@ -83,9 +83,10 @@ class ListaEnlazada
                     delete actual;
                     return true;
                 }
+                anterior = actual;
+                actual = actual->siguiente;
             }
-            anterior = actual;
-            actual = actual->siguiente;
+            return false;
         }
 
         ~ListaEnlazada()
