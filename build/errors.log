@@ -1,0 +1,7 @@
+Línea mal definida (Faltan columnas): Producto Sin Columnas,7401006,FaltanDatos
+Línea malformada (Error de formato numérico): Queso Amarillo,7401007,Lacteos,2026-06-01,Kraft,ERROR_PRECIO,20 > stod
+Línea malformada (Error de formato numérico): Yogurt Fresa,7401008,Lacteos,2026-05-20,Yoplait,8.50,SIN_STOCK > stoi
+Error: La ruta no existe o el archivo no se puede leer: 1
+Línea mal definida (Faltan columnas): Producto Sin Columnas,7401006,FaltanDatos
+Línea malformada (Error de formato numérico): Queso Amarillo,7401007,Lacteos,2026-06-01,Kraft,ERROR_PRECIO,20 > stod
+Línea malformada (Error de formato numérico): Yogurt Fresa,7401008,Lacteos,2026-05-20,Yoplait,8.50,SIN_STOCK > stoi
