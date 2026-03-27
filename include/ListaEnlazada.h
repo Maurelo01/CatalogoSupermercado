@@ -17,9 +17,10 @@ class ListaEnlazada
     private:
         Nodo* cabeza;
         bool ordenada;
+        bool limpio;
 
     public:
-        ListaEnlazada(bool esOrdenada) : cabeza(nullptr), ordenada(esOrdenada) {}
+        ListaEnlazada(bool esOrdenada, bool limpia = false) : cabeza(nullptr), ordenada(esOrdenada), limpio(limpia) {}
         void insertar(Producto* p)
         {
             Nodo* nuevo = new Nodo(p);
@@ -64,6 +65,20 @@ class ListaEnlazada
             return nullptr;
         }
 
+        Producto* buscarPorCodigo(std::string codigo)
+        {
+            Nodo* actual = cabeza;
+            while (actual != nullptr)
+            {
+                if (actual->dato->codigo_barra == codigo)
+                {
+                    return actual->dato;
+                }
+                actual = actual->siguiente;
+            }
+            return nullptr;
+        }
+        
         bool eliminar(std::string codigo)
         {
             Nodo* actual = cabeza;
@@ -80,6 +95,11 @@ class ListaEnlazada
                     {
                         anterior->siguiente = actual->siguiente;
                     }
+                    if (limpio && actual->dato != nullptr)
+                    {
+                        delete actual->dato;
+                        actual->dato = nullptr;
+                    }
                     delete actual;
                     return true;
                 }
@@ -95,6 +115,11 @@ class ListaEnlazada
             while (actual != nullptr)
             {
                 Nodo* siguiente = actual->siguiente;
+                if (limpio && actual->dato != nullptr)
+                {
+                    delete actual->dato;
+                    actual->dato = nullptr;
+                }
                 delete actual; 
                 actual = siguiente;
             }
