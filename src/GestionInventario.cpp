@@ -1,12 +1,12 @@
-using namespace std;
 #include "../include/GestionInventario.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
 #include <algorithm>
 
-GestionInventario::GestionInventario() 
-    : listaNoOrdenada(false), listaOrdenada(true) {}
+using namespace std;
+
+GestionInventario::GestionInventario() : listaNoOrdenada(false, true), listaOrdenada(true, false) {}
 
 void GestionInventario::cargarDesdeCSV(string ruta)
 {
@@ -37,6 +37,7 @@ void GestionInventario::cargarDesdeCSV(string ruta)
                 }
                 else
                 {
+                    log << "Línea ignorada, Código de barra duplicada: " << linea << endl;
                     delete nuevoProducto;
                 }
 
@@ -57,7 +58,10 @@ void GestionInventario::cargarDesdeCSV(string ruta)
 
 bool GestionInventario::agregarProducto(Producto* nuevo)
 {
-    listaNoOrdenada.insertar(nuevo);
+    if (listaNoOrdenada.buscarPorCodigo(nuevo->codigo_barra) != nullptr)
+    {
+        return false;
+    }
     listaOrdenada.insertar(nuevo);
     return true;
 }
