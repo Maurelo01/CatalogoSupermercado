@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/supermercado.dir/link.d"
   "CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o"
   "CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o.d"
   "CMakeFiles/supermercado.dir/src/main.cpp.o"

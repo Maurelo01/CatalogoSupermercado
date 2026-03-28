@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mauricio/Escritorio/Tarea/Estructura de Datos/Proyecto 1/src/GestionInventario.cpp" "CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o" "gcc" "CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o.d"
   "/home/mauricio/Escritorio/Tarea/Estructura de Datos/Proyecto 1/src/main.cpp" "CMakeFiles/supermercado.dir/src/main.cpp.o" "gcc" "CMakeFiles/supermercado.dir/src/main.cpp.o.d"
-  "" "supermercado" "gcc" "CMakeFiles/supermercado.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

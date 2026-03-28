@@ -58,17 +58,36 @@ void GestionInventario::cargarDesdeCSV(string ruta)
 
 bool GestionInventario::agregarProducto(Producto* nuevo)
 {
-    if (listaNoOrdenada.buscarPorCodigo(nuevo->codigo_barra) != nullptr)
+    if (hashBarras.buscar(nuevo->codigo_barra) != nullptr)
     {
         return false;
     }
+    listaNoOrdenada.insertar(nuevo);
     listaOrdenada.insertar(nuevo);
+    hashBarras.insertar(nuevo);
+    avlNombres.insertar(nuevo);
     return true;
 }
 
 Producto* GestionInventario::buscarPorNombreSecuencial(string nombre)
 {
     return listaNoOrdenada.buscarSecuencia(nombre);
+}
+
+Producto* GestionInventario::buscarPorNombreAVL(string nombre)
+{
+    return avlNombres.buscarPorNombre(nombre);
+}
+
+Producto* GestionInventario::buscarPorCodigo(string codigo)
+{
+    return hashBarras.buscar(codigo);
+}
+
+void GestionInventario::generarGraficoAVL()
+{
+    avlNombres.crearGrafico("arbol.dot");
+    cout << "Archivo 'arbol.dot' generado exitosamente, para verlo usa Graphviz." << endl;
 }
 
 bool GestionInventario::eliminarProducto(string codigo)
