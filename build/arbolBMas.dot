@@ -1,0 +1,10 @@
+digraph ArbolBMas {
+  rankdir=TB;
+  node [shape=plaintext];
+  node0 [label=<<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0"><TR><TD>Lacteos</TD></TR></TABLE>>];
+  node0 -> node1;
+  node1 [label=<<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0"><TR><TD>Abarrotes</TD><TD>Bebidas</TD><TD>Cuidado Personal</TD><TD>Frutas</TD></TR></TABLE>>];
+  node0 -> node2;
+  node2 [label=<<TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0"><TR><TD>Lacteos</TD><TD>Limpieza</TD><TD>Panaderia</TD><TD>Snacks</TD></TR></TABLE>>];
+  node1 -> node2 [color=red, constraint=false];
+}
