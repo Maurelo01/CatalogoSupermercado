@@ -13,10 +13,12 @@ void mostrarMenu()
     cout << "2) Buscar por nombre - Lista Enlazada" << endl;
     cout << "3) Buscar por nombre - Arbol AVL" << endl;
     cout << "4) Buscar por codigo - Tabla Hash" << endl;
-    cout << "5) Eliminar producto" << endl;
-    cout << "6) Ver errores de carga" << endl;
-    cout << "7) Generar grafico del Arbol AVL .dot" << endl;
-    cout << "8) Salir" << endl;
+    cout << "5) Buscar por rango de fechas - Arbol B" << endl;
+    cout << "6) Eliminar producto" << endl;
+    cout << "7) Ver errores de carga" << endl;
+    cout << "8) Generar grafico del Arbol B .dot" << endl;
+    cout << "9) Generar grafico del Arbol AVL .dot" << endl;
+    cout << "10) Salir" << endl;
     cout << "Seleccione una opcion: ";
 }
 
@@ -108,6 +110,16 @@ int main()
                 break;
             }
             case 5:
+            {
+                string fechaInicio, fechaFin;
+                cout << "Ingrese la fecha de inicio (Año/Mes/Día): ";
+                cin >> fechaInicio;
+                cout << "Ingrese la fecha de fin (Año/Mes/Día): ";
+                cin >> fechaFin;
+                inventario.buscarPorRangoFechas(fechaInicio, fechaFin);
+                break;
+            }
+            case 6:
                 cout << "Ingrese el codigo de barras a eliminar: ";
                 cin >> cadenaBusqueda;
                 if (inventario.eliminarProducto(cadenaBusqueda))
@@ -119,20 +131,23 @@ int main()
                     cout << "No se encontro el producto con ese codigo." << endl;
                 }
                 break;
-            case 6:
+            case 7:
                 cout << "ULTIMOS ERRORES REGISTRADOS" << endl;
                 system("tail -n 10 errors.log");
                 break;
-            case 7:
+            case 8:
+                inventario.generarGraficoB();
+                break;
+            case 9:
                 inventario.generarGraficoAVL();
                 break;
-            case 8:
+            case 10:
                 cout << "Saliendo del programa..." << endl;
                 break;
             default:
                 cout << "Opcion no valida." << endl;
         }
     }
-    while (opcion != 8);
+    while (opcion != 10);
     return 0;
 }

@@ -104,6 +104,7 @@ class ArbolAVL
             {
                 eliminarNodos(nodo->izquierda);
                 eliminarNodos(nodo->derecha);
+                delete nodo->producto;
                 delete nodo;
             }
         }
@@ -115,12 +116,12 @@ class ArbolAVL
                 archivo << "  \"" << nodo->producto->nombre << "\" [label=\"Nombre: " << nodo->producto->nombre << "\\nCódigo: " << nodo->producto->codigo_barra << "\"];\n";
                 if (nodo->izquierda)
                 {
-                    archivo << "  \"" << nodo->producto->nombre << "\" -> \"" << nodo->izquierda->producto->nombre << "\";\n";
+                    archivo << "  \"" << nodo->producto->nombre << "\" -> \"" << nodo->izquierda->producto->nombre << "\" [label=\"L\"];\n";
                     generarDot(nodo->izquierda, archivo);
                 }
                 if (nodo->derecha)
                 {
-                    archivo << "  \"" << nodo->producto->nombre << "\" -> \"" << nodo->derecha->producto->nombre << "\";\n";
+                    archivo << "  \"" << nodo->producto->nombre << "\" -> \"" << nodo->derecha->producto->nombre << "\" [label=\"R\"];\n";
                     generarDot(nodo->derecha, archivo);
                 }
             }
@@ -133,7 +134,7 @@ class ArbolAVL
             raiz = insertar(raiz, producto);
         }
 
-        Producto* buscarPorNombre(std::string nombre)
+        Producto* buscarPorNombre(std::string& nombre)
         {
             return buscar(raiz, nombre);
         }

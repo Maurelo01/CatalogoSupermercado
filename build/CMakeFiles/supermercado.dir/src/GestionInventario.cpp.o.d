@@ -167,5 +167,6 @@ CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o: \
  /usr/include/c++/13/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ArbolB.h \
+ /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc
