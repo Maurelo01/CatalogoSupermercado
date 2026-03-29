@@ -26,3 +26,7 @@ Línea ignorada, Código de barra duplicada: Duplicado Cola,7401004,Bebidas,2026
 Línea mal definida (Faltan columnas): Producto Sin Columnas,7401016,FaltanDatos
 Línea malformada (Error de formato numérico): Queso Amarillo,7401017,Lacteos,2026-06-01,Kraft,ERROR_PRECIO,20 > stod
 Línea malformada (Error de formato numérico): Yogurt Fresa,7401018,Lacteos,2026-05-20,Yoplait,8.50,SIN_STOCK > stoi
+Línea ignorada, Código de barra duplicada: Duplicado Cola,7401004,Bebidas,2026-10-20,Coca Cola,16.00,150
+Línea mal definida (Faltan columnas): Producto Sin Columnas,7401016,FaltanDatos
+Línea malformada (Error de formato numérico): Queso Amarillo,7401017,Lacteos,2026-06-01,Kraft,ERROR_PRECIO,20 > stod
+Línea malformada (Error de formato numérico): Yogurt Fresa,7401018,Lacteos,2026-05-20,Yoplait,8.50,SIN_STOCK > stoi

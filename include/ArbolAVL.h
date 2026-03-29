@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <fstream>
 #include <string>
+using namespace std;
 
 struct NodoAVL
 {
@@ -84,7 +85,7 @@ class ArbolAVL
             return nodo;
         }
 
-        Producto* buscar(NodoAVL* nodo, std::string& nombre)
+        Producto* buscar(NodoAVL* nodo, const std::string& nombre)
         {
             if (!nodo) return nullptr;
             if (nombre == nodo->producto->nombre)
@@ -104,7 +105,6 @@ class ArbolAVL
             {
                 eliminarNodos(nodo->izquierda);
                 eliminarNodos(nodo->derecha);
-                delete nodo->producto;
                 delete nodo;
             }
         }
@@ -127,6 +127,74 @@ class ArbolAVL
             }
         }
 
+        NodoAVL* nodoValorMinimo(NodoAVL* nodo)
+        {
+            NodoAVL* actual = nodo;
+            while (actual->izquierda != nullptr) actual = actual->izquierda;
+            return actual;
+        }
+
+        NodoAVL* eliminar(NodoAVL* raiz, string nombre)
+        {
+            if (raiz == nullptr) return raiz;
+            if (nombre < raiz->producto->nombre)
+            {
+                raiz->izquierda = eliminar(raiz->izquierda, nombre);
+            }
+            else if (nombre > raiz->producto->nombre)
+            {
+                raiz->derecha = eliminar(raiz->derecha, nombre);
+            }
+            else
+            {
+                if ((raiz->izquierda == nullptr) || (raiz->derecha == nullptr))
+                {
+                    NodoAVL* temp = raiz->izquierda ? raiz->izquierda : raiz->derecha;
+                    if (temp == nullptr)
+                    {
+                        temp = raiz;
+                        raiz = nullptr;
+                    }
+                    else
+                    {
+                        *raiz = *temp;
+                    }
+                    delete temp;
+                }
+                else
+                {
+                    NodoAVL* temp = nodoValorMinimo(raiz->derecha);
+                    raiz->producto = temp->producto;
+                    raiz->derecha = eliminar(raiz->derecha, temp->producto->nombre);
+                }
+            }
+            if (raiz == nullptr)
+            {
+                return raiz;
+            }
+            raiz->altura = 1 + max(obtenerAltura(raiz->izquierda), obtenerAltura(raiz->derecha));
+            int balance = obtenerBalance(raiz);
+            if (balance > 1 && obtenerBalance(raiz->izquierda) >= 0)
+            {
+                return rotarDerecha(raiz);
+            }
+            if (balance > 1 && obtenerBalance(raiz->izquierda) < 0)
+            {
+                raiz->izquierda = rotarIzquierda(raiz->izquierda);
+                return rotarDerecha(raiz);
+            }
+            if (balance < -1 && obtenerBalance(raiz->derecha) <= 0)
+            {
+                return rotarIzquierda(raiz);
+            }
+            if (balance < -1 && obtenerBalance(raiz->derecha) > 0)
+            {
+                raiz->derecha = rotarDerecha(raiz->derecha);
+                return rotarIzquierda(raiz);
+            }
+            return raiz;
+        }
+
     public:
         ArbolAVL() : raiz(nullptr) {}
         void insertar(Producto* producto)
@@ -134,7 +202,7 @@ class ArbolAVL
             raiz = insertar(raiz, producto);
         }
 
-        Producto* buscarPorNombre(std::string& nombre)
+        Producto* buscarPorNombre(const std::string& nombre)
         {
             return buscar(raiz, nombre);
         }
@@ -152,6 +220,11 @@ class ArbolAVL
         ~ArbolAVL()
         {
             eliminarNodos(raiz);
+        }
+
+        void eliminar(string nombre)
+        {
+            raiz = eliminar(raiz, nombre);
         }
     };
 #endif
