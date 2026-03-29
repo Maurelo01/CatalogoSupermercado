@@ -243,6 +243,45 @@ class ArbolB
                 }
             }
         }
+
+        void eliminar(Producto* producto)
+        {
+            if (!raiz)
+            {
+                return;
+            }
+            string fecha = producto->fecha_caducidad;
+            NodoB* nodo = buscar(raiz, fecha);
+            if (nodo)
+            {
+                for (int i = 0; i < nodo->numClaves; i++)
+                {
+                    if (nodo->claves[i].fecha == fecha)
+                    {
+                        ListaFechaIgual* actual = nodo->claves[i].lista;
+                        ListaFechaIgual* anterior = nullptr;
+                        while (actual != nullptr)
+                        {
+                            if (actual->producto->codigo_barra == producto->codigo_barra)
+                            {
+                                if (anterior == nullptr)
+                                {
+                                    nodo->claves[i].lista = actual->siguiente;
+                                }
+                                else
+                                {
+                                    anterior->siguiente = actual->siguiente;
+                                }
+                                delete actual;
+                                return;
+                            }
+                            anterior = actual;
+                            actual = actual->siguiente;
+                        }
+                    }
+                }
+            }
+        }
         
         void imprimirEnRango(const std::string& fechaInicio, const std::string& fechaFin)
         {
