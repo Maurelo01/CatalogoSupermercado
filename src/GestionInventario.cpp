@@ -58,13 +58,12 @@ void GestionInventario::cargarDesdeCSV(string ruta)
 
 bool GestionInventario::agregarProducto(Producto* nuevo)
 {
-    if (hashBarras.buscar(nuevo->codigo_barra) != nullptr)
+    if (listaNoOrdenada.buscarPorCodigo(nuevo->codigo_barra) != nullptr)
     {
-        return false;
+        return false; 
     }
     listaNoOrdenada.insertar(nuevo);
     listaOrdenada.insertar(nuevo);
-    hashBarras.insertar(nuevo);
     avlNombres.insertar(nuevo);
     arbolFechas.insertar(nuevo);
     return true;
@@ -82,7 +81,7 @@ Producto* GestionInventario::buscarPorNombreAVL(string nombre)
 
 Producto* GestionInventario::buscarPorCodigo(string codigo)
 {
-    return hashBarras.buscar(codigo);
+    return listaNoOrdenada.buscarPorCodigo(codigo);
 }
 
 void GestionInventario::generarGraficoAVL()

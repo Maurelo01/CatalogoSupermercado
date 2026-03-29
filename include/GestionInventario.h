@@ -4,7 +4,6 @@
 #include <string>
 #include "Producto.h"
 #include "ListaEnlazada.h"
-#include "TablaHash.h"
 #include "ArbolAVL.h"
 #include "ArbolB.h"
 
@@ -13,7 +12,6 @@ class GestionInventario
     private:
         ListaEnlazada listaNoOrdenada; 
         ListaEnlazada listaOrdenada;
-        TablaHash hashBarras;
         ArbolAVL avlNombres;
         ArbolB arbolFechas;
         void registrarError(const string& mensaje);
