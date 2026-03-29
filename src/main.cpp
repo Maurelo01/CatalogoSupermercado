@@ -12,7 +12,7 @@ void mostrarMenu()
     cout << "1) Cargar catalogo desde CSV" << endl;
     cout << "2) Buscar por nombre - Lista Enlazada" << endl;
     cout << "3) Buscar por nombre - Arbol AVL" << endl;
-    cout << "4) Buscar por codigo - Tabla Hash" << endl;
+    cout << "4) Buscar por codigo - Lista Enlazada" << endl;
     cout << "5) Buscar por rango de fechas - Arbol B" << endl;
     cout << "6) Eliminar producto" << endl;
     cout << "7) Ver errores de carga" << endl;
@@ -96,7 +96,7 @@ int main()
                 Producto* producto = inventario.buscarPorCodigo(cadenaBusqueda);
                 if (producto)
                 {
-                    cout << " - Tabla Hash - " << endl;
+                    cout << " - Lista Enlazada - " << endl;
                     cout << "PRODUCTO ENCONTRADO:" << endl;
                     cout << " - Nombre: " << producto->nombre << endl;
                     cout << " - Categoria: " << producto->categoria << endl;

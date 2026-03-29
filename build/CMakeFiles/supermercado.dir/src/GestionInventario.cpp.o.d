@@ -155,7 +155,6 @@ CMakeFiles/supermercado.dir/src/GestionInventario.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/TablaHash.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ArbolAVL.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \

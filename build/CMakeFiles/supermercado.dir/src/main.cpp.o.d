@@ -153,7 +153,6 @@ CMakeFiles/supermercado.dir/src/main.cpp.o: \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/GestionInventario.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/Producto.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ListaEnlazada.h \
- /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/TablaHash.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ArbolAVL.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
