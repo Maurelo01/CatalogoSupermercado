@@ -66,6 +66,7 @@ bool GestionInventario::agregarProducto(Producto* nuevo)
     listaOrdenada.insertar(nuevo);
     hashBarras.insertar(nuevo);
     avlNombres.insertar(nuevo);
+    arbolFechas.insertar(nuevo);
     return true;
 }
 
@@ -88,6 +89,18 @@ void GestionInventario::generarGraficoAVL()
 {
     avlNombres.crearGrafico("arbol.dot");
     cout << "Archivo 'arbol.dot' generado exitosamente, para verlo usa Graphviz." << endl;
+}
+
+void GestionInventario::generarGraficoB()
+{
+    arbolFechas.crearGrafico("arbolB.dot");
+    cout << "Archivo arbolB.dot generado exitosamente, para verlo usa Graphviz." << endl;
+}
+
+void GestionInventario::buscarPorRangoFechas(string fechaInicio, string fechaFin)
+{
+    cout << "Productos con fecha de caducidad entre " << fechaInicio << " y " << fechaFin << ":\n";
+    arbolFechas.imprimirEnRango(fechaInicio, fechaFin);
 }
 
 bool GestionInventario::eliminarProducto(string codigo)
