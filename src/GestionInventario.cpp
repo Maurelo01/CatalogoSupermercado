@@ -104,6 +104,14 @@ void GestionInventario::buscarPorRangoFechas(string fechaInicio, string fechaFin
 
 bool GestionInventario::eliminarProducto(string codigo)
 {
+    Producto* productoAEliminar = listaNoOrdenada.buscarPorCodigo(codigo);
+    if (productoAEliminar == nullptr)
+    {
+        return false; 
+    }
+    string nombreAEliminar = productoAEliminar->nombre;
+    avlNombres.eliminar(nombreAEliminar);
+    arbolFechas.eliminar(productoAEliminar);
     bool e1 = listaNoOrdenada.eliminar(codigo);
     bool e2 = listaOrdenada.eliminar(codigo);
     return e1 && e2;
