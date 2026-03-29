@@ -6,6 +6,7 @@
 #include "ListaEnlazada.h"
 #include "ArbolAVL.h"
 #include "ArbolB.h"
+#include "ArbolBMas.h"
 
 class GestionInventario
 {
@@ -14,6 +15,7 @@ class GestionInventario
         ListaEnlazada listaOrdenada;
         ArbolAVL avlNombres;
         ArbolB arbolFechas;
+        ArbolBMas arbolCategoria;
         void registrarError(const string& mensaje);
         bool validarDuplicado(const string& codigo);
 
@@ -25,8 +27,10 @@ class GestionInventario
         Producto* buscarPorNombreSecuencial(string nombre);
         Producto* buscarPorNombreAVL(string nombre);
         Producto* buscarPorCodigo(string codigo);
+        void buscarPorCategoria(string categoria);
         void generarGraficoAVL();
         void generarGraficoB();
+        void generarGraficoBMas();
         void buscarPorRangoFechas(string fechaInicio, string fechaFin);
         ~GestionInventario();
 };
