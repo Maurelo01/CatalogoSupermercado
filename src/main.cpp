@@ -186,6 +186,7 @@ int main()
                 break;
             }
             case 8:
+            {
                 cout << "Ingrese el codigo de barras a eliminar: ";
                 cin >> cadenaBusqueda;
                 auto inicio = chrono::high_resolution_clock::now();
@@ -202,6 +203,7 @@ int main()
                 }
                 cout << "Tiempo de eliminación: " << duracion << " microsegundos." << endl;
                 break;
+            }
             case 9:
                 cout << "ULTIMOS ERRORES REGISTRADOS" << endl;
                 system("tail -n 10 errors.log");
