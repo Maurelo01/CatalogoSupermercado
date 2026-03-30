@@ -112,6 +112,7 @@ bool GestionInventario::eliminarProducto(string codigo)
     string nombreAEliminar = productoAEliminar->nombre;
     avlNombres.eliminar(nombreAEliminar);
     arbolFechas.eliminar(productoAEliminar);
+    arbolCategoria.eliminarProducto(productoAEliminar->categoria, codigo);
     bool e1 = listaNoOrdenada.eliminar(codigo);
     bool e2 = listaOrdenada.eliminar(codigo);
     return e1 && e2;
