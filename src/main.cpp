@@ -10,17 +10,18 @@ void mostrarMenu()
     cout << "   SISTEMA DE CATALOGO DE SUPERMERCADO   " << endl;
     cout << "-----------------------------------------" << endl;
     cout << "1) Cargar catalogo desde CSV" << endl;
-    cout << "2) Buscar por nombre - Lista Enlazada" << endl;
-    cout << "3) Buscar por nombre - Arbol AVL" << endl;
-    cout << "4) Buscar por codigo - Lista Enlazada" << endl;
-    cout << "5) Buscar por rango de fechas - Arbol B" << endl;
-    cout << "6) Buscar por categoria - Arbol B+" << endl;
-    cout << "7) Eliminar producto" << endl;
-    cout << "8) Ver errores de carga" << endl;
-    cout << "9) Generar grafico del Arbol B .dot" << endl;
-    cout << "10) Generar grafico del Arbol B+ .dot" << endl;
-    cout << "11) Generar grafico del Arbol AVL .dot" << endl;
-    cout << "12) Salir" << endl;
+    cout << "2) Agregar producto manualmente" << endl;
+    cout << "3) Buscar por nombre - Lista Enlazada" << endl;
+    cout << "4) Buscar por nombre - Arbol AVL" << endl;
+    cout << "5) Buscar por codigo - Lista Enlazada" << endl;
+    cout << "6) Buscar por rango de fechas - Arbol B" << endl;
+    cout << "7) Buscar por categoria - Arbol B+" << endl;
+    cout << "8) Eliminar producto" << endl;
+    cout << "9) Ver errores de carga" << endl;
+    cout << "10) Generar grafico del Arbol B .dot" << endl;
+    cout << "11) Generar grafico del Arbol B+ .dot" << endl;
+    cout << "12) Generar grafico del Arbol AVL .dot" << endl;
+    cout << "13) Salir" << endl;
     cout << "Seleccione una opcion: ";
 }
 
@@ -53,6 +54,33 @@ int main()
             }
             case 2:
             {
+                string nombre, codigo, categoria, fecha, marca;
+                double precio;
+                int stock;
+                cout << " NUEVO PRODUCTO " << endl;
+                cin.ignore();
+                cout << "Nombre: "; getline(cin, nombre);
+                cout << "Codigo de barras: "; getline(cin, codigo);
+                cout << "Categoria: "; getline(cin, categoria);
+                cout << "Fecha de caducidad (Año-Mes-Día): "; getline(cin, fecha);
+                cout << "Marca: "; getline(cin, marca);
+                cout << "Precio: Q"; cin >> precio;
+                cout << "Stock: "; cin >> stock;
+                Producto* nuevo = new Producto(nombre, codigo, categoria, fecha, marca, precio, stock);
+                bool exito = inventario.agregarProducto(nuevo);
+                if(exito)
+                {
+                    cout << "Producto agregado correctamente a todas las estructuras" << endl;
+                }
+                else
+                {
+                    cout << "Error: El producto con codigo " << codigo << " ya existe." << endl;
+                    delete nuevo;
+                }
+                break;
+            }
+            case 3:
+            {
                 cout << "Ingrese el nombre exacto del producto: ";
                 cin.ignore();
                 getline(cin, cadenaBusqueda);
@@ -71,7 +99,7 @@ int main()
                 }
                 break;
             }
-            case 3:
+            case 4:
             {
                 cout << "Ingrese el nombre exacto del producto: ";
                 cin.ignore();
@@ -91,7 +119,7 @@ int main()
                 }
                 break;
             }
-            case 4:
+            case 5:
             {
                 cout << "Ingrese el codigo de barras: ";
                 cin >> cadenaBusqueda;
@@ -107,21 +135,21 @@ int main()
                 }
                 else
                 {
-                    cout << "Producto no encontrado en la Tabla Hash." << endl;
+                    cout << "Producto no encontrado en la Lista Enlazada." << endl;
                 }
                 break;
             }
-            case 5:
+            case 6:
             {
                 string fechaInicio, fechaFin;
-                cout << "Ingrese la fecha de inicio (Año/Mes/Día): ";
+                cout << "Ingrese la fecha de inicio (Año-Mes-Día): ";
                 cin >> fechaInicio;
-                cout << "Ingrese la fecha de fin (Año/Mes/Día): ";
+                cout << "Ingrese la fecha de fin (Año-Mes-Día): ";
                 cin >> fechaFin;
                 inventario.buscarPorRangoFechas(fechaInicio, fechaFin);
                 break;
             }
-            case 6:
+            case 7:
             {
                 cout << "Ingrese la categoria a buscar: ";
                 cin.ignore();
@@ -129,7 +157,7 @@ int main()
                 inventario.buscarPorCategoria(cadenaBusqueda);
                 break;
             }
-            case 7:
+            case 8:
                 cout << "Ingrese el codigo de barras a eliminar: ";
                 cin >> cadenaBusqueda;
                 if (inventario.eliminarProducto(cadenaBusqueda))
@@ -141,26 +169,26 @@ int main()
                     cout << "No se encontro el producto con ese codigo." << endl;
                 }
                 break;
-            case 8:
+            case 9:
                 cout << "ULTIMOS ERRORES REGISTRADOS" << endl;
                 system("tail -n 10 errors.log");
                 break;
-            case 9:
+            case 10:
                 inventario.generarGraficoB();
                 break;
-            case 10:
+            case 11:
                 inventario.generarGraficoBMas();
                 break;
-            case 11:
+            case 12:
                 inventario.generarGraficoAVL();
                 break;
-            case 12:
+            case 13:
                 cout << "Saliendo del programa..." << endl;
                 break;
             default:
                 cout << "Opcion no valida." << endl;
         }
     }
-    while (opcion != 12);
+    while (opcion != 13);
     return 0;
 }
