@@ -1,6 +1,6 @@
-
 #include <iostream>
 #include <string>
+#include <chrono>
 #include "../include/GestionInventario.h"
 using namespace std;
 
@@ -48,8 +48,12 @@ int main()
                 cin.ignore();
                 getline(cin, ruta);
                 cout << "Cargando datos... " << endl;
+                auto inicio = chrono::high_resolution_clock::now();
                 inventario.cargarDesdeCSV(ruta);
-                cout << "Proceso finalizado. Revise errors.log para obtener detalles." << endl;
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::milliseconds>(fin - inicio).count();
+                cout << "Carga completada en " << duracion << " ms." << endl;
+                cout << "Revise errors.log para obtener detalles." << endl;
                 break;
             }
             case 2:
@@ -67,7 +71,10 @@ int main()
                 cout << "Precio: Q"; cin >> precio;
                 cout << "Stock: "; cin >> stock;
                 Producto* nuevo = new Producto(nombre, codigo, categoria, fecha, marca, precio, stock);
+                auto inicio = chrono::high_resolution_clock::now();
                 bool exito = inventario.agregarProducto(nuevo);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
                 if(exito)
                 {
                     cout << "Producto agregado correctamente a todas las estructuras" << endl;
@@ -77,6 +84,7 @@ int main()
                     cout << "Error: El producto con codigo " << codigo << " ya existe." << endl;
                     delete nuevo;
                 }
+                cout << "Tiempo de inserción: " << duracion << " microsegundos." << endl;
                 break;
             }
             case 3:
@@ -84,7 +92,10 @@ int main()
                 cout << "Ingrese el nombre exacto del producto: ";
                 cin.ignore();
                 getline(cin, cadenaBusqueda);
+                auto inicio = chrono::high_resolution_clock::now();
                 Producto* producto = inventario.buscarPorNombreSecuencial(cadenaBusqueda);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
                 if (producto)
                 {
                     cout << " - Lista Enlazada - " << endl;
@@ -97,6 +108,7 @@ int main()
                 {
                     cout << "Producto no encontrado." << endl;
                 }
+                cout << "Tiempo de búsqueda secuencial: " << duracion << " microsegundos." << endl;
                 break;
             }
             case 4:
@@ -104,7 +116,10 @@ int main()
                 cout << "Ingrese el nombre exacto del producto: ";
                 cin.ignore();
                 getline(cin, cadenaBusqueda);
+                auto inicio = chrono::high_resolution_clock::now();
                 Producto* producto = inventario.buscarPorNombreAVL(cadenaBusqueda);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
                 if (producto)
                 {
                     cout << " - Arbol AVL - " << endl;
@@ -117,13 +132,17 @@ int main()
                 {
                     cout << "Producto no encontrado." << endl;
                 }
+                cout << "Tiempo de búsqueda binaria en AVL: " << duracion << " microsegundos." << endl;
                 break;
             }
             case 5:
             {
                 cout << "Ingrese el codigo de barras: ";
                 cin >> cadenaBusqueda;
+                auto inicio = chrono::high_resolution_clock::now();
                 Producto* producto = inventario.buscarPorCodigo(cadenaBusqueda);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
                 if (producto)
                 {
                     cout << " - Lista Enlazada - " << endl;
@@ -137,6 +156,7 @@ int main()
                 {
                     cout << "Producto no encontrado en la Lista Enlazada." << endl;
                 }
+                cout << "Tiempo de búsqueda por codigo: " << duracion << " microsegundos." << endl;
                 break;
             }
             case 6:
@@ -146,7 +166,11 @@ int main()
                 cin >> fechaInicio;
                 cout << "Ingrese la fecha de fin (Año-Mes-Día): ";
                 cin >> fechaFin;
+                auto inicio = chrono::high_resolution_clock::now();
                 inventario.buscarPorRangoFechas(fechaInicio, fechaFin);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
+                cout << "Tiempo de búsqueda en arbol B: " << duracion << " microsegundos." << endl;
                 break;
             }
             case 7:
@@ -154,13 +178,21 @@ int main()
                 cout << "Ingrese la categoria a buscar: ";
                 cin.ignore();
                 getline(cin, cadenaBusqueda);
+                auto inicio = chrono::high_resolution_clock::now();
                 inventario.buscarPorCategoria(cadenaBusqueda);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
+                cout << "Tiempo de búsqueda en arbol B+: " << duracion << " microsegundos." << endl;
                 break;
             }
             case 8:
                 cout << "Ingrese el codigo de barras a eliminar: ";
                 cin >> cadenaBusqueda;
-                if (inventario.eliminarProducto(cadenaBusqueda))
+                auto inicio = chrono::high_resolution_clock::now();
+                bool eliminado = inventario.eliminarProducto(cadenaBusqueda);
+                auto fin = chrono::high_resolution_clock::now();
+                auto duracion = chrono::duration_cast<chrono::microseconds>(fin - inicio).count();
+                if (eliminado)
                 {
                     cout << "Producto eliminado de las listas." << endl;
                 }
@@ -168,6 +200,7 @@ int main()
                 {
                     cout << "No se encontro el producto con ese codigo." << endl;
                 }
+                cout << "Tiempo de eliminación: " << duracion << " microsegundos." << endl;
                 break;
             case 9:
                 cout << "ULTIMOS ERRORES REGISTRADOS" << endl;
