@@ -263,7 +263,7 @@ class ArbolBMas
                 {
                     if (hoja->claves[i] == categoria)
                     {
-                        cout << "PRODUCTOS EN LA CATEGORIA " << categoria << ":\n";
+                        cout << " PRODUCTOS EN LA CATEGORIA " << categoria << ":\n";
                         ListaCategoria* actual = hoja->listas[i];
                         while (actual)
                         {

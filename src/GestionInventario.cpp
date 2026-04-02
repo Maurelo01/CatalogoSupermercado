@@ -3,6 +3,7 @@
 #include <sstream>
 #include <iostream>
 #include <algorithm>
+#include <chrono>
 
 using namespace std;
 
@@ -70,38 +71,6 @@ bool GestionInventario::agregarProducto(Producto* nuevo)
     return true;
 }
 
-Producto* GestionInventario::buscarPorNombreSecuencial(string nombre)
-{
-    return listaNoOrdenada.buscarSecuencia(nombre);
-}
-
-Producto* GestionInventario::buscarPorNombreAVL(string nombre)
-{
-    return avlNombres.buscarPorNombre(nombre);
-}
-
-Producto* GestionInventario::buscarPorCodigo(string codigo)
-{
-    return listaNoOrdenada.buscarPorCodigo(codigo);
-}
-
-void GestionInventario::generarGraficoAVL()
-{
-    avlNombres.crearGrafico("arbol.dot");
-    cout << "Archivo 'arbol.dot' generado exitosamente, para verlo usa Graphviz." << endl;
-}
-
-void GestionInventario::generarGraficoB()
-{
-    arbolFechas.crearGrafico("arbolB.dot");
-    cout << "Archivo arbolB.dot generado exitosamente, para verlo usa Graphviz." << endl;
-}
-
-void GestionInventario::buscarPorRangoFechas(string fechaInicio, string fechaFin)
-{
-    arbolFechas.imprimirEnRango(fechaInicio, fechaFin);
-}
-
 bool GestionInventario::eliminarProducto(string codigo)
 {
     Producto* productoAEliminar = listaNoOrdenada.buscarPorCodigo(codigo);
@@ -118,9 +87,46 @@ bool GestionInventario::eliminarProducto(string codigo)
     return e1 && e2;
 }
 
+Producto* GestionInventario::buscarPorNombreSecuencial(string nombre)
+{
+    return listaNoOrdenada.buscarSecuencia(nombre);
+}
+
+Producto* GestionInventario::buscarPorNombreAVL(string nombre)
+{
+    return avlNombres.buscarPorNombre(nombre);
+}
+
+Producto* GestionInventario::buscarPorCodigo(string codigo)
+{
+    return listaNoOrdenada.buscarPorCodigo(codigo);
+}
+
+void GestionInventario::buscarPorRangoFechas(string fechaInicio, string fechaFin)
+{
+    arbolFechas.imprimirEnRango(fechaInicio, fechaFin);
+}
+
 void GestionInventario::buscarPorCategoria(string categoria)
 {
     arbolCategoria.buscarPorCategoria(categoria);
+}
+
+void GestionInventario::listarPorNombre()
+{
+    avlNombres.listarEnOrden();
+}
+
+void GestionInventario::generarGraficoAVL()
+{
+    avlNombres.crearGrafico("arbol.dot");
+    cout << "Archivo 'arbol.dot' generado exitosamente, para verlo usa Graphviz." << endl;
+}
+
+void GestionInventario::generarGraficoB()
+{
+    arbolFechas.crearGrafico("arbolB.dot");
+    cout << "Archivo arbolB.dot generado exitosamente, para verlo usa Graphviz." << endl;
 }
 
 void GestionInventario::generarGraficoBMas()
