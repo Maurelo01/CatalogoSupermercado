@@ -28,10 +28,13 @@ class GestionInventario
         Producto* buscarPorNombreAVL(string nombre);
         Producto* buscarPorCodigo(string codigo);
         void buscarPorCategoria(string categoria);
+        void buscarPorRangoFechas(string fechaInicio, string fechaFin);
+        void listarPorNombre();
+        void compararBusquedas(int m, int j);
         void generarGraficoAVL();
         void generarGraficoB();
         void generarGraficoBMas();
-        void buscarPorRangoFechas(string fechaInicio, string fechaFin);
+        
         ~GestionInventario();
 };
 
