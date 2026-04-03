@@ -200,8 +200,14 @@ class ArbolAVL
             if (!nodo) return;
             inOrden(nodo->izquierda, contador);
             contador++;
-            cout << " " << contador << ". " << nodo->producto->nombre << " | Codigo: " << nodo->producto->codigo_barra << " | Categoria: " << nodo->producto->categoria << " | Q" << nodo->producto->precio << " | Stock: " << nodo->producto->stock << "\n";
+            cout << " " << contador << ". " << nodo->producto->nombre << " | Codigo: " << nodo->producto->codigo_barra << " | Categoria: " << nodo->producto->categoria << " | Q" << nodo->producto->precio << " | Stock: " << nodo->producto->stock << endl;
             inOrden(nodo->derecha, contador);
+        }
+
+        int contarNodos(NodoAVL* nodo)
+        {
+            if (!nodo) return 0;
+            return 1 + contarNodos(nodo->izquierda) + contarNodos(nodo->derecha);
         }
 
         void recolectarNombres(NodoAVL* nodo, string* arreglo, int& indice, int limite)
@@ -227,17 +233,22 @@ class ArbolAVL
             return buscar(raiz, nombre);
         }
 
+        int contarNodos()
+        {
+            return contarNodos(raiz);
+        }
+
         void listarEnOrden()
         {
             if (!raiz)
             {
-                cout << "El arbol AVL esta vacio.\n";
+                cout << "El arbol AVL esta vacio." << endl;
                 return;
             }
             cout << " CATALOGO EN ORDEN ALFABETICO " << endl;
             int contador = 0;
             inOrden(raiz, contador);
-            cout << " Total de productos listados: " << contador << "\n";
+            cout << " Total de productos listados: " << contador << endl;
         }
 
         void obtenerNombres(std::string* arreglo, int& total, int limite)
