@@ -65,8 +65,8 @@ void GestionInventario::cargarDesdeCSV(string ruta)
             {
                 double precio = stod(precioStr);
                 int    stock  = stoi(stockStr);
-                Producto* p   = new Producto(nombre, codigo, categoria, fecha, marca, precio, stock);
-                if (agregarProducto(p))
+                Producto* producto   = new Producto(nombre, codigo, categoria, fecha, marca, precio, stock);
+                if (agregarProducto(producto))
                 {
                     cargados++;
                 }
@@ -74,7 +74,7 @@ void GestionInventario::cargarDesdeCSV(string ruta)
                 {
                     log << "Linea ignorada, Codigo duplicado: " << linea << endl;
                     omitidos++;
-                    delete p;
+                    delete producto;
                 }
             }
             catch (const exception& e)
@@ -116,9 +116,10 @@ bool GestionInventario::eliminarProducto(string codigo)
         return false; 
     }
     string nombreAEliminar = productoAEliminar->nombre;
+    string categoriaAEliminar = productoAEliminar->categoria;
     avlNombres.eliminar(nombreAEliminar);
     arbolFechas.eliminar(productoAEliminar);
-    arbolCategoria.eliminarProducto(productoAEliminar->categoria, codigo);
+    arbolCategoria.eliminarProducto(categoriaAEliminar, codigo);
     bool e1 = listaNoOrdenada.eliminar(codigo);
     bool e2 = listaOrdenada.eliminar(codigo);
     return e1 && e2;
