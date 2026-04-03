@@ -7,6 +7,7 @@
 #include "ArbolAVL.h"
 #include "ArbolB.h"
 #include "ArbolBMas.h"
+using namespace std;
 
 class GestionInventario
 {
