@@ -248,22 +248,56 @@ void GestionInventario::compararBusquedas(int m, int j)
     delete[] nombres;
 }
 
+static bool generarPNG(const string& archivoDot, const string& archivoPng)
+{
+    string comando = "dot -Tpng " + archivoDot + " -o " + archivoPng;
+    int resultado  = system(comando.c_str());
+    return (resultado == 0);
+}
+
 void GestionInventario::generarGraficoAVL()
 {
-    avlNombres.crearGrafico("arbol.dot");
-    cout << "Archivo 'arbol.dot' generado exitosamente, para verlo usa Graphviz." << endl;
+    const string dot = "arbol_avl.dot";
+    const string png = "arbol_avl.png";
+    avlNombres.crearGrafico(dot);
+    if (generarPNG(dot, png))
+    {
+        cout << "Archivo '" << png << "' generado exitosamente." << endl;
+    }
+    else
+    {
+        cerr << "Error al generar el archivo PNG." << endl;
+    }
 }
 
 void GestionInventario::generarGraficoB()
 {
-    arbolFechas.crearGrafico("arbolB.dot");
-    cout << "Archivo arbolB.dot generado exitosamente, para verlo usa Graphviz." << endl;
+    const string dot = "arbolB.dot";
+    const string png = "arbolB.png";
+    arbolFechas.crearGrafico(dot);
+    if (generarPNG(dot, png))
+    {
+        cout << "Archivo '" << png << "' generado exitosamente." << endl;
+    }
+    else
+    {
+        cerr << "Error al generar el archivo PNG." << endl;
+    }
 }
 
 void GestionInventario::generarGraficoBMas()
 {
-    arbolCategoria.crearGrafico("arbolBMas.dot");
-    cout << "Archivo arbolBMas.dot generado exitosamente, para verlo usa Graphviz." << endl;
+    const string dot = "arbolBMas.dot";
+    const string png = "arbolBMas.png";
+    arbolCategoria.crearGrafico(dot);
+    if (generarPNG(dot, png))
+    {
+        cout << "Archivo '" << png << "' generado exitosamente." << endl;
+    }
+    else
+    {
+        cerr << "Error al generar el archivo PNG." << endl;
+    }
 }
 
 GestionInventario::~GestionInventario()
