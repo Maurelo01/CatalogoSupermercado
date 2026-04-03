@@ -1,0 +1,34 @@
+digraph G {
+  node [shape=record];
+  "Leche Deslactosada" [label="Nombre: Leche Deslactosada\nCódigo: 7401001"];
+  "Leche Deslactosada" -> "Coca Cola 2L" [label="L"];
+  "Coca Cola 2L" [label="Nombre: Coca Cola 2L\nCódigo: 7401004"];
+  "Coca Cola 2L" -> "Cereal Zucaritas" [label="L"];
+  "Cereal Zucaritas" [label="Nombre: Cereal Zucaritas\nCódigo: 7401007"];
+  "Cereal Zucaritas" -> "Atun en Agua" [label="L"];
+  "Atun en Agua" [label="Nombre: Atun en Agua\nCódigo: 7401008"];
+  "Coca Cola 2L" -> "Frijoles Volteados" [label="R"];
+  "Frijoles Volteados" [label="Nombre: Frijoles Volteados\nCódigo: 7401003"];
+  "Frijoles Volteados" -> "Detergente Polvo" [label="L"];
+  "Detergente Polvo" [label="Nombre: Detergente Polvo\nCódigo: 7401011"];
+  "Frijoles Volteados" -> "Jabon de Baño" [label="R"];
+  "Jabon de Baño" [label="Nombre: Jabon de Baño\nCódigo: 7401012"];
+  "Jabon de Baño" -> "Galletas Chokis" [label="L"];
+  "Galletas Chokis" [label="Nombre: Galletas Chokis\nCódigo: 7401014"];
+  "Jabon de Baño" -> "Jugo de Naranja" [label="R"];
+  "Jugo de Naranja" [label="Nombre: Jugo de Naranja\nCódigo: 7401015"];
+  "Leche Deslactosada" -> "Queso Fresco" [label="R"];
+  "Queso Fresco" [label="Nombre: Queso Fresco\nCódigo: 7401006"];
+  "Queso Fresco" -> "Pan Blanco" [label="L"];
+  "Pan Blanco" [label="Nombre: Pan Blanco\nCódigo: 7401002"];
+  "Pan Blanco" -> "Manzana Gala" [label="L"];
+  "Manzana Gala" [label="Nombre: Manzana Gala\nCódigo: 7401005"];
+  "Pan Blanco" -> "Pasta Espagueti" [label="R"];
+  "Pasta Espagueti" [label="Nombre: Pasta Espagueti\nCódigo: 7401009"];
+  "Pasta Espagueti" -> "Papel Higienico" [label="L"];
+  "Papel Higienico" [label="Nombre: Papel Higienico\nCódigo: 7401019"];
+  "Queso Fresco" -> "Salsa Dulce" [label="R"];
+  "Salsa Dulce" [label="Nombre: Salsa Dulce\nCódigo: 7401010"];
+  "Salsa Dulce" -> "Shampoo Anticaspa" [label="R"];
+  "Shampoo Anticaspa" [label="Nombre: Shampoo Anticaspa\nCódigo: 7401013"];
+}
