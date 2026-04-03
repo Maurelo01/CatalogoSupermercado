@@ -1,3 +1,20 @@
-Linea malformada (formato numerico): Producto Corrupto,7501093,Abarrotes,2026-01-01,Test,NOPRECIO,10 > stod
-Linea mal definida (faltan columnas): Fila Incompleta,7501094,Bebidas
-Linea ignorada, Codigo duplicado: Duplicado,7500001,Lacteos,2026-01-01,Marca,10.00,5
+Linea ignorada, Codigo duplicado: Leche Deslactosada,7401001,Lacteos,2026-05-10,Dos Pinos,15.50,100
+Linea ignorada, Codigo duplicado: Pan Blanco,7401002,Panaderia,2026-04-05,Bimbo,18.00,50
+Linea ignorada, Codigo duplicado: Frijoles Volteados,7401003,Abarrotes,2027-01-15,Ducal,12.25,200
+Linea ignorada, Codigo duplicado: Coca Cola 2L,7401004,Bebidas,2026-10-20,Coca Cola,16.00,150
+Linea ignorada, Codigo duplicado: Manzana Gala,7401005,Frutas,2026-04-10,Importada,3.50,300
+Linea ignorada, Codigo duplicado: Queso Fresco,7401006,Lacteos,2026-03-30,Lala,22.00,40
+Linea ignorada, Codigo duplicado: Cereal Zucaritas,7401007,Abarrotes,2026-11-01,Kelloggs,35.00,80
+Linea ignorada, Codigo duplicado: Atun en Agua,7401008,Abarrotes,2028-02-20,Sardimar,14.50,120
+Linea ignorada, Codigo duplicado: Pasta Espagueti,7401009,Abarrotes,2027-06-15,Ina,6.00,300
+Linea ignorada, Codigo duplicado: Salsa Dulce,7401010,Abarrotes,2026-09-10,Natura,8.50,150
+Linea ignorada, Codigo duplicado: Detergente Polvo,7401011,Limpieza,2030-01-01,Ariel,45.00,90
+Linea ignorada, Codigo duplicado: Jabon de Baño,7401012,Cuidado Personal,2028-05-05,Protex,7.00,200
+Linea ignorada, Codigo duplicado: Shampoo Anticaspa,7401013,Cuidado Personal,2027-08-12,Head&Shoulders,40.00,60
+Linea ignorada, Codigo duplicado: Galletas Chokis,7401014,Snacks,2026-08-15,Gamesa,5.00,80
+Linea ignorada, Codigo duplicado: Jugo de Naranja,7401015,Bebidas,2026-04-20,Del Valle,12.00,100
+Linea ignorada, Codigo duplicado: Duplicado Cola,7401004,Bebidas,2026-10-20,Coca Cola,16.00,150
+Linea mal definida (faltan columnas): Producto Sin Columnas,7401016,FaltanDatos
+Linea malformada (formato numerico): Queso Amarillo,7401017,Lacteos,2026-06-01,Kraft,ERROR_PRECIO,20 > stod
+Linea malformada (formato numerico): Yogurt Fresa,7401018,Lacteos,2026-05-20,Yoplait,8.50,SIN_STOCK > stoi
+Linea ignorada, Codigo duplicado: Papel Higienico,7401019,Limpieza,2030-12-31,Scott,30.00,100
