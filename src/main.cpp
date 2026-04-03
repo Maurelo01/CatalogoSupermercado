@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <chrono>
+#include <fstream>
 #include "../include/GestionInventario.h"
 using namespace std;
 
@@ -231,9 +232,30 @@ int main()
                 break;
             }
             case 11:
+            {
                 cout << "ULTIMOS ERRORES REGISTRADOS" << endl;
-                system("tail -n 10 errors.log");
+                ifstream logFile("errors.log");
+                if (!logFile.is_open())
+                {
+                    cout << "El archivo errors.log no existe o esta vacio." << endl;
+                    break;
+                }
+                const int MAX_LINEAS = 2000;
+                string lineas[MAX_LINEAS];
+                int totalLineas = 0;
+                string lineaLog;
+                while (getline(logFile, lineaLog) && totalLineas < MAX_LINEAS)
+                {
+                    lineas[totalLineas++] = lineaLog;
+                }
+                logFile.close();
+                int desdeLinea = (totalLineas > 15) ? totalLineas - 15 : 0;
+                for (int i = desdeLinea; i < totalLineas; i++)
+                {
+                    cout << lineas[i] << endl;
+                }
                 break;
+            }
             case 12:
                 inventario.generarGraficoB();
                 break;

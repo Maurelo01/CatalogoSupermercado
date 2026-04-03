@@ -156,7 +156,11 @@ CMakeFiles/supermercado.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/GestionInventario.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/Producto.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ListaEnlazada.h \
@@ -167,10 +171,6 @@ CMakeFiles/supermercado.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/fstream \
- /usr/include/c++/13/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
+ /usr/include/c++/13/pstl/execution_defs.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ArbolB.h \
  /home/mauricio/Escritorio/Tarea/Estructura\ de\ Datos/Proyecto\ 1/src/../include/ArbolBMas.h
