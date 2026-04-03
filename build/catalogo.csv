@@ -1,0 +1,1096 @@
+Nombre,CodigoBarra,Categoria,FechaCaducidad,Marca,Precio,Stock
+Leche Entera,7500001,Lacteos,2025-10-02,SuperMax,104.48,309
+Leche Entera 500g,7500002,Lacteos,2027-11-06,NaturaBio,48.24,349
+Leche Entera 1kg,7500003,Lacteos,2025-06-11,AlimentaVida,80.02,407
+Leche Entera Light,7500004,Lacteos,2027-02-05,VidaMax,24.76,160
+Leche Entera Premium,7500005,Lacteos,2027-09-21,NutriPlus,68.94,223
+Leche Entera Familiar,7500006,Lacteos,2025-02-15,Marca Propia,13.54,195
+Leche Deslactosada,7500007,Lacteos,2027-09-07,Nestle,90.62,472
+Leche Deslactosada 500g,7500008,Lacteos,2028-08-08,Lala,58.33,185
+Leche Deslactosada 1kg,7500009,Lacteos,2026-09-15,EcoStar,26.51,256
+Leche Deslactosada Light,7500010,Lacteos,2026-12-12,Lala,116.37,310
+Leche Deslactosada Premium,7500011,Lacteos,2025-05-06,SuperMax,66.84,499
+Leche Deslactosada Familiar,7500012,Lacteos,2028-02-12,FreshCo,69.82,352
+Leche Semidescremada,7500013,Lacteos,2025-07-24,SuperMax,102.61,387
+Leche Semidescremada 500g,7500014,Lacteos,2027-12-04,Dos Pinos,46.16,390
+Leche Semidescremada 1kg,7500015,Lacteos,2025-04-07,Alpura,90.58,212
+Leche Semidescremada Light,7500016,Lacteos,2028-11-17,Generico,105.19,318
+Leche Semidescremada Premium,7500017,Lacteos,2028-07-02,VidaMax,9.16,337
+Leche Semidescremada Familiar,7500018,Lacteos,2025-12-04,PureFarm,77.83,331
+Crema Acida,7500019,Lacteos,2027-09-08,NutriPlus,107.26,310
+Crema Acida 500g,7500020,Lacteos,2028-10-15,Dos Pinos,95.04,496
+Crema Acida 1kg,7500021,Lacteos,2025-01-25,Alpura,42.44,77
+Crema Acida Light,7500022,Lacteos,2028-02-25,Dos Pinos,74.91,237
+Crema Acida Premium,7500023,Lacteos,2026-10-03,FreshCo,74.38,478
+Crema Acida Familiar,7500024,Lacteos,2025-07-22,AlimentaVida,55.06,6
+Queso Fresco,7500025,Lacteos,2028-07-20,Generico,76.26,169
+Queso Fresco 500g,7500026,Lacteos,2026-12-02,PureFarm,33.96,120
+Queso Fresco 1kg,7500027,Lacteos,2026-12-01,PureFarm,104.49,353
+Queso Fresco Light,7500028,Lacteos,2027-09-27,FreshCo,6.36,274
+Queso Fresco Premium,7500029,Lacteos,2027-05-06,Lala,43.65,224
+Queso Fresco Familiar,7500030,Lacteos,2026-08-17,Lala,38.44,444
+Queso Amarillo,7500031,Lacteos,2028-01-25,PureFarm,55.36,316
+Queso Amarillo 500g,7500032,Lacteos,2026-07-15,Lala,67.99,287
+Queso Amarillo 1kg,7500033,Lacteos,2025-10-21,EcoStar,61.25,335
+Queso Amarillo Light,7500034,Lacteos,2028-01-14,NutriPlus,103.63,321
+Queso Amarillo Premium,7500035,Lacteos,2025-01-21,Parmalat,21.87,217
+Queso Amarillo Familiar,7500036,Lacteos,2027-11-22,Dos Pinos,42.91,77
+Mantequilla,7500037,Lacteos,2028-05-10,EcoStar,62.99,368
+Mantequilla 500g,7500038,Lacteos,2025-07-17,PureFarm,54.28,259
+Mantequilla 1kg,7500039,Lacteos,2025-12-20,Nestle,7.22,408
+Mantequilla Light,7500040,Lacteos,2025-07-01,NaturaBio,49.06,406
+Mantequilla Premium,7500041,Lacteos,2026-12-04,AlimentaVida,73.38,180
+Mantequilla Familiar,7500042,Lacteos,2027-08-06,VidaMax,61.39,99
+Yogurt Natural,7500043,Lacteos,2025-03-15,VidaMax,66.86,353
+Yogurt Natural 500g,7500044,Lacteos,2028-03-13,NutriPlus,66.71,192
+Yogurt Natural 1kg,7500045,Lacteos,2025-06-16,Alpura,59.93,6
+Yogurt Natural Light,7500046,Lacteos,2028-02-21,Generico,44.7,159
+Yogurt Natural Premium,7500047,Lacteos,2026-10-27,SuperMax,6.79,44
+Yogurt Natural Familiar,7500048,Lacteos,2025-07-10,Generico,33.12,160
+Yogurt Fresa,7500049,Lacteos,2028-05-23,NutriPlus,16.34,225
+Yogurt Fresa 500g,7500050,Lacteos,2028-10-24,Marca Propia,76.42,243
+Yogurt Fresa 1kg,7500051,Lacteos,2025-07-22,Dos Pinos,118.27,362
+Yogurt Fresa Light,7500052,Lacteos,2026-01-27,Lala,33.22,407
+Yogurt Fresa Premium,7500053,Lacteos,2025-05-04,Dos Pinos,12.53,270
+Yogurt Fresa Familiar,7500054,Lacteos,2028-12-26,AlimentaVida,70.81,164
+Yogurt Durazno,7500055,Lacteos,2025-06-20,Generico,89.66,383
+Yogurt Durazno 500g,7500056,Lacteos,2028-01-22,EcoStar,89.0,20
+Yogurt Durazno 1kg,7500057,Lacteos,2028-03-16,Dos Pinos,4.76,151
+Yogurt Durazno Light,7500058,Lacteos,2028-07-06,Parmalat,67.61,251
+Yogurt Durazno Premium,7500059,Lacteos,2025-07-20,NutriPlus,33.6,471
+Yogurt Durazno Familiar,7500060,Lacteos,2028-07-24,Generico,99.88,51
+Natilla,7500061,Lacteos,2027-09-01,Alpura,52.01,188
+Natilla 500g,7500062,Lacteos,2026-08-15,VidaMax,53.24,327
+Natilla 1kg,7500063,Lacteos,2027-06-19,Parmalat,88.59,82
+Natilla Light,7500064,Lacteos,2025-04-20,NaturaBio,87.03,390
+Natilla Premium,7500065,Lacteos,2028-11-24,FreshCo,28.49,22
+Natilla Familiar,7500066,Lacteos,2027-03-11,EcoStar,5.36,474
+Leche Condensada,7500067,Lacteos,2026-02-23,PureFarm,49.71,304
+Leche Condensada 500g,7500068,Lacteos,2026-07-22,Lala,42.02,465
+Leche Condensada 1kg,7500069,Lacteos,2026-01-09,Parmalat,32.23,381
+Leche Condensada Light,7500070,Lacteos,2026-07-22,NaturaBio,76.54,165
+Leche Condensada Premium,7500071,Lacteos,2025-08-13,Parmalat,35.83,101
+Leche Condensada Familiar,7500072,Lacteos,2028-05-07,Nestle,46.14,125
+Queso Manchego,7500073,Lacteos,2026-09-17,Marca Propia,57.32,83
+Queso Manchego 500g,7500074,Lacteos,2027-05-11,Parmalat,72.61,385
+Queso Manchego 1kg,7500075,Lacteos,2026-08-02,Dos Pinos,49.52,20
+Queso Manchego Light,7500076,Lacteos,2028-01-04,AlimentaVida,18.14,452
+Queso Manchego Premium,7500077,Lacteos,2026-10-03,Nestle,20.54,320
+Queso Manchego Familiar,7500078,Lacteos,2028-12-01,NaturaBio,52.84,289
+Crema para Batir,7500079,Lacteos,2027-01-08,Lala,99.55,353
+Crema para Batir 500g,7500080,Lacteos,2027-06-28,Dos Pinos,88.46,34
+Crema para Batir 1kg,7500081,Lacteos,2026-01-24,Nestle,69.11,311
+Crema para Batir Light,7500082,Lacteos,2028-02-05,FreshCo,102.01,130
+Crema para Batir Premium,7500083,Lacteos,2027-07-01,Marca Propia,18.69,145
+Crema para Batir Familiar,7500084,Lacteos,2026-11-12,SuperMax,59.41,485
+Refresco Cola,7500085,Bebidas,2027-03-01,Del Valle,55.92,317
+Refresco Cola 500g,7500086,Bebidas,2027-01-22,FreshCo,17.72,216
+Refresco Cola 1kg,7500087,Bebidas,2025-12-01,VidaMax,4.68,460
+Refresco Cola Light,7500088,Bebidas,2026-07-19,Generico,69.18,316
+Refresco Cola Premium,7500089,Bebidas,2028-01-23,Generico,37.62,163
+Refresco Cola Familiar,7500090,Bebidas,2027-06-03,EcoStar,45.99,443
+Refresco Naranja,7500091,Bebidas,2027-08-02,Coca Cola,49.64,290
+Refresco Naranja 500g,7500092,Bebidas,2026-09-10,Coca Cola,82.44,381
+Refresco Naranja 1kg,7500093,Bebidas,2028-08-28,NutriPlus,49.29,151
+Refresco Naranja Light,7500094,Bebidas,2028-07-11,NaturaBio,73.54,64
+Refresco Naranja Premium,7500095,Bebidas,2027-04-18,SuperMax,4.42,432
+Refresco Naranja Familiar,7500096,Bebidas,2026-08-02,Jumex,51.26,147
+Refresco Lima,7500097,Bebidas,2025-02-27,Pepsi,32.6,141
+Refresco Lima 500g,7500098,Bebidas,2026-09-01,Coca Cola,4.73,462
+Refresco Lima 1kg,7500099,Bebidas,2028-01-27,NaturaBio,75.09,341
+Refresco Lima Light,7500100,Bebidas,2027-01-17,Del Valle,60.63,150
+Refresco Lima Premium,7500101,Bebidas,2028-06-22,Coca Cola,83.51,454
+Refresco Lima Familiar,7500102,Bebidas,2025-11-12,Generico,104.2,237
+Agua Natural,7500103,Bebidas,2028-01-13,Jumex,87.13,362
+Agua Natural 500g,7500104,Bebidas,2026-03-24,Generico,31.86,220
+Agua Natural 1kg,7500105,Bebidas,2026-01-19,FreshCo,3.2,87
+Agua Natural Light,7500106,Bebidas,2027-11-25,NutriPlus,78.06,162
+Agua Natural Premium,7500107,Bebidas,2026-07-08,Marca Propia,49.04,191
+Agua Natural Familiar,7500108,Bebidas,2027-09-26,Jumex,103.32,169
+Agua Mineral,7500109,Bebidas,2025-03-11,NutriPlus,18.44,138
+Agua Mineral 500g,7500110,Bebidas,2028-06-15,VidaMax,76.99,292
+Agua Mineral 1kg,7500111,Bebidas,2026-12-17,Marca Propia,61.25,106
+Agua Mineral Light,7500112,Bebidas,2025-02-02,NutriPlus,100.34,307
+Agua Mineral Premium,7500113,Bebidas,2028-06-28,Naturas,75.47,333
+Agua Mineral Familiar,7500114,Bebidas,2025-12-03,Generico,52.22,430
+Jugo de Naranja,7500115,Bebidas,2028-05-10,AlimentaVida,7.02,185
+Jugo de Naranja 500g,7500116,Bebidas,2025-05-01,EcoStar,90.24,417
+Jugo de Naranja 1kg,7500117,Bebidas,2025-11-18,NutriPlus,24.04,260
+Jugo de Naranja Light,7500118,Bebidas,2026-06-14,VidaMax,64.86,69
+Jugo de Naranja Premium,7500119,Bebidas,2028-05-22,Jumex,60.15,325
+Jugo de Naranja Familiar,7500120,Bebidas,2025-01-10,FreshCo,22.82,248
+Jugo de Manzana,7500121,Bebidas,2025-05-16,Generico,79.78,64
+Jugo de Manzana 500g,7500122,Bebidas,2026-12-05,PureFarm,69.47,113
+Jugo de Manzana 1kg,7500123,Bebidas,2025-04-25,Marca Propia,27.04,496
+Jugo de Manzana Light,7500124,Bebidas,2028-07-27,NutriPlus,113.21,312
+Jugo de Manzana Premium,7500125,Bebidas,2025-01-25,Pepsi,57.62,310
+Jugo de Manzana Familiar,7500126,Bebidas,2028-10-28,NutriPlus,79.18,128
+Jugo Multifruta,7500127,Bebidas,2027-06-13,Generico,6.64,315
+Jugo Multifruta 500g,7500128,Bebidas,2026-09-18,NaturaBio,111.59,424
+Jugo Multifruta 1kg,7500129,Bebidas,2027-04-28,AlimentaVida,90.63,205
+Jugo Multifruta Light,7500130,Bebidas,2026-11-26,Pepsi,73.21,461
+Jugo Multifruta Premium,7500131,Bebidas,2026-12-20,Marca Propia,77.25,180
+Jugo Multifruta Familiar,7500132,Bebidas,2027-02-06,Marca Propia,17.79,450
+Te Frio Limon,7500133,Bebidas,2026-07-16,Naturas,47.33,37
+Te Frio Limon 500g,7500134,Bebidas,2028-02-03,EcoStar,109.42,415
+Te Frio Limon 1kg,7500135,Bebidas,2028-02-13,Del Valle,7.87,472
+Te Frio Limon Light,7500136,Bebidas,2028-07-13,EcoStar,69.51,301
+Te Frio Limon Premium,7500137,Bebidas,2028-01-14,PureFarm,71.05,129
+Te Frio Limon Familiar,7500138,Bebidas,2028-11-24,Del Valle,51.53,144
+Te Frio Durazno,7500139,Bebidas,2028-04-13,PureFarm,111.32,270
+Te Frio Durazno 500g,7500140,Bebidas,2026-09-26,Marca Propia,40.67,222
+Te Frio Durazno 1kg,7500141,Bebidas,2028-12-12,Marca Propia,96.29,272
+Te Frio Durazno Light,7500142,Bebidas,2026-04-11,AlimentaVida,14.85,382
+Te Frio Durazno Premium,7500143,Bebidas,2028-10-24,NutriPlus,8.24,8
+Te Frio Durazno Familiar,7500144,Bebidas,2028-07-23,Del Valle,114.86,375
+Bebida Energetica,7500145,Bebidas,2026-08-10,Marca Propia,15.53,64
+Bebida Energetica 500g,7500146,Bebidas,2026-02-02,Pepsi,46.99,317
+Bebida Energetica 1kg,7500147,Bebidas,2026-03-27,Marca Propia,15.46,290
+Bebida Energetica Light,7500148,Bebidas,2028-08-14,AlimentaVida,57.18,474
+Bebida Energetica Premium,7500149,Bebidas,2028-01-06,NutriPlus,56.98,164
+Bebida Energetica Familiar,7500150,Bebidas,2025-06-26,EcoStar,43.68,356
+Isotonica Naranja,7500151,Bebidas,2026-05-19,NaturaBio,89.06,91
+Isotonica Naranja 500g,7500152,Bebidas,2025-02-23,Coca Cola,105.0,433
+Isotonica Naranja 1kg,7500153,Bebidas,2027-10-17,Pepsi,6.5,198
+Isotonica Naranja Light,7500154,Bebidas,2028-05-26,Generico,31.67,70
+Isotonica Naranja Premium,7500155,Bebidas,2025-07-06,VidaMax,14.12,223
+Isotonica Naranja Familiar,7500156,Bebidas,2025-09-03,Del Valle,35.9,27
+Nectar de Mango,7500157,Bebidas,2027-10-19,Marca Propia,74.24,445
+Nectar de Mango 500g,7500158,Bebidas,2025-07-18,VidaMax,91.12,233
+Nectar de Mango 1kg,7500159,Bebidas,2027-11-24,VidaMax,51.75,164
+Nectar de Mango Light,7500160,Bebidas,2026-04-01,Coca Cola,116.43,478
+Nectar de Mango Premium,7500161,Bebidas,2027-01-20,Marca Propia,94.5,243
+Nectar de Mango Familiar,7500162,Bebidas,2026-01-14,Coca Cola,38.9,336
+Refresco Uva,7500163,Bebidas,2025-08-22,Jumex,49.59,489
+Refresco Uva 500g,7500164,Bebidas,2028-08-06,Generico,48.96,280
+Refresco Uva 1kg,7500165,Bebidas,2026-04-16,AlimentaVida,84.86,127
+Refresco Uva Light,7500166,Bebidas,2028-04-11,FreshCo,21.74,405
+Refresco Uva Premium,7500167,Bebidas,2025-09-08,Coca Cola,97.77,295
+Refresco Uva Familiar,7500168,Bebidas,2027-02-07,AlimentaVida,88.89,196
+Agua de Coco,7500169,Bebidas,2025-09-14,FreshCo,103.31,35
+Agua de Coco 500g,7500170,Bebidas,2025-04-22,EcoStar,108.71,65
+Agua de Coco 1kg,7500171,Bebidas,2028-05-16,AlimentaVida,12.6,301
+Agua de Coco Light,7500172,Bebidas,2025-03-20,NutriPlus,24.67,132
+Agua de Coco Premium,7500173,Bebidas,2026-07-09,Naturas,34.9,252
+Agua de Coco Familiar,7500174,Bebidas,2028-06-08,Marca Propia,84.15,364
+Pan Blanco,7500175,Panaderia,2028-06-16,Bimbo,103.7,196
+Pan Blanco 500g,7500176,Panaderia,2027-08-09,NutriPlus,84.02,386
+Pan Blanco 1kg,7500177,Panaderia,2028-08-22,SuperMax,3.35,444
+Pan Blanco Light,7500178,Panaderia,2028-05-20,Holsum,90.27,272
+Pan Blanco Premium,7500179,Panaderia,2027-01-17,AlimentaVida,54.19,330
+Pan Blanco Familiar,7500180,Panaderia,2027-08-22,VidaMax,98.23,150
+Pan Integral,7500181,Panaderia,2028-10-02,SuperMax,16.59,361
+Pan Integral 500g,7500182,Panaderia,2028-10-18,Wonder,60.65,140
+Pan Integral 1kg,7500183,Panaderia,2025-07-07,Wonder,57.12,14
+Pan Integral Light,7500184,Panaderia,2025-12-13,EcoStar,35.88,483
+Pan Integral Premium,7500185,Panaderia,2028-05-06,FreshCo,63.83,451
+Pan Integral Familiar,7500186,Panaderia,2025-06-10,Nutrella,77.93,475
+Pan de Caja,7500187,Panaderia,2025-08-12,VidaMax,81.48,238
+Pan de Caja 500g,7500188,Panaderia,2027-08-14,PureFarm,55.67,465
+Pan de Caja 1kg,7500189,Panaderia,2028-10-21,Generico,119.4,14
+Pan de Caja Light,7500190,Panaderia,2025-08-18,VidaMax,54.81,113
+Pan de Caja Premium,7500191,Panaderia,2026-09-09,EcoStar,79.62,331
+Pan de Caja Familiar,7500192,Panaderia,2028-06-15,Marca Propia,35.67,284
+Croissant,7500193,Panaderia,2027-07-28,FreshCo,84.26,91
+Croissant 500g,7500194,Panaderia,2028-03-16,FreshCo,102.0,112
+Croissant 1kg,7500195,Panaderia,2025-08-28,NaturaBio,3.97,499
+Croissant Light,7500196,Panaderia,2027-06-13,NutriPlus,105.77,21
+Croissant Premium,7500197,Panaderia,2028-02-13,Nutrella,49.63,473
+Croissant Familiar,7500198,Panaderia,2025-06-12,EcoStar,98.96,327
+Dona Azucar,7500199,Panaderia,2028-11-15,NutriPlus,11.03,255
+Dona Azucar 500g,7500200,Panaderia,2025-11-14,NutriPlus,91.78,474
+Dona Azucar 1kg,7500201,Panaderia,2025-05-10,Bimbo,70.35,6
+Dona Azucar Light,7500202,Panaderia,2028-01-12,AlimentaVida,37.22,167
+Dona Azucar Premium,7500203,Panaderia,2025-10-16,NutriPlus,35.86,479
+Dona Azucar Familiar,7500204,Panaderia,2026-06-05,NutriPlus,119.34,282
+Dona Chocolate,7500205,Panaderia,2027-12-23,Nutrella,24.19,200
+Dona Chocolate 500g,7500206,Panaderia,2025-03-24,Marca Propia,71.42,432
+Dona Chocolate 1kg,7500207,Panaderia,2026-01-13,Nutrella,90.5,371
+Dona Chocolate Light,7500208,Panaderia,2028-06-17,SuperMax,96.15,75
+Dona Chocolate Premium,7500209,Panaderia,2025-04-03,Marca Propia,10.16,151
+Dona Chocolate Familiar,7500210,Panaderia,2028-07-22,NutriPlus,13.91,375
+Baguette,7500211,Panaderia,2026-07-08,NaturaBio,49.55,330
+Baguette 500g,7500212,Panaderia,2025-12-21,SuperMax,53.14,461
+Baguette 1kg,7500213,Panaderia,2027-10-10,Marca Propia,110.94,94
+Baguette Light,7500214,Panaderia,2025-03-08,Marinela,41.19,394
+Baguette Premium,7500215,Panaderia,2028-12-11,Bimbo,70.98,400
+Baguette Familiar,7500216,Panaderia,2027-01-06,EcoStar,102.8,29
+Pan Pita,7500217,Panaderia,2027-09-08,Nutrella,41.06,377
+Pan Pita 500g,7500218,Panaderia,2027-03-22,Holsum,81.34,429
+Pan Pita 1kg,7500219,Panaderia,2027-01-20,Marca Propia,98.11,104
+Pan Pita Light,7500220,Panaderia,2027-12-25,Generico,69.91,250
+Pan Pita Premium,7500221,Panaderia,2027-02-18,Nutrella,46.81,442
+Pan Pita Familiar,7500222,Panaderia,2028-04-05,Marca Propia,98.78,121
+Tortilla de Harina,7500223,Panaderia,2027-09-28,Marca Propia,70.04,380
+Tortilla de Harina 500g,7500224,Panaderia,2028-12-22,Generico,101.98,434
+Tortilla de Harina 1kg,7500225,Panaderia,2026-09-06,Marinela,98.54,26
+Tortilla de Harina Light,7500226,Panaderia,2028-08-01,EcoStar,46.03,61
+Tortilla de Harina Premium,7500227,Panaderia,2025-01-05,EcoStar,68.45,358
+Tortilla de Harina Familiar,7500228,Panaderia,2026-12-23,EcoStar,20.63,115
+Bizcocho,7500229,Panaderia,2027-07-01,VidaMax,87.18,381
+Bizcocho 500g,7500230,Panaderia,2027-03-02,Bimbo,13.03,403
+Bizcocho 1kg,7500231,Panaderia,2026-11-10,NaturaBio,103.19,110
+Bizcocho Light,7500232,Panaderia,2028-11-03,EcoStar,3.47,121
+Bizcocho Premium,7500233,Panaderia,2027-07-03,Wonder,69.66,60
+Bizcocho Familiar,7500234,Panaderia,2027-11-17,SuperMax,60.77,96
+Pan Frances,7500235,Panaderia,2026-07-28,Wonder,64.01,381
+Pan Frances 500g,7500236,Panaderia,2025-12-06,Holsum,95.33,202
+Pan Frances 1kg,7500237,Panaderia,2028-05-03,Generico,6.48,178
+Pan Frances Light,7500238,Panaderia,2025-09-05,Wonder,116.67,337
+Pan Frances Premium,7500239,Panaderia,2027-09-13,Generico,110.77,365
+Pan Frances Familiar,7500240,Panaderia,2027-03-17,Holsum,86.8,212
+Galleta Mantequilla,7500241,Panaderia,2027-11-04,PureFarm,67.45,453
+Galleta Mantequilla 500g,7500242,Panaderia,2026-09-11,Bimbo,88.94,124
+Galleta Mantequilla 1kg,7500243,Panaderia,2028-08-18,NutriPlus,87.03,307
+Galleta Mantequilla Light,7500244,Panaderia,2025-11-26,NutriPlus,10.7,482
+Galleta Mantequilla Premium,7500245,Panaderia,2025-11-16,AlimentaVida,81.57,32
+Galleta Mantequilla Familiar,7500246,Panaderia,2027-01-15,Generico,42.54,236
+Muffin Blueberry,7500247,Panaderia,2025-11-19,Generico,28.47,500
+Muffin Blueberry 500g,7500248,Panaderia,2027-04-12,AlimentaVida,70.1,489
+Muffin Blueberry 1kg,7500249,Panaderia,2027-06-10,Nutrella,21.9,370
+Muffin Blueberry Light,7500250,Panaderia,2028-06-24,SuperMax,79.46,250
+Muffin Blueberry Premium,7500251,Panaderia,2027-11-06,Marinela,93.48,357
+Muffin Blueberry Familiar,7500252,Panaderia,2025-09-10,FreshCo,17.52,130
+Panque Vainilla,7500253,Panaderia,2026-06-16,Generico,42.29,406
+Panque Vainilla 500g,7500254,Panaderia,2026-05-11,VidaMax,28.7,217
+Panque Vainilla 1kg,7500255,Panaderia,2026-02-08,FreshCo,20.8,135
+Panque Vainilla Light,7500256,Panaderia,2027-12-21,Marca Propia,72.19,495
+Panque Vainilla Premium,7500257,Panaderia,2027-07-09,AlimentaVida,24.81,426
+Panque Vainilla Familiar,7500258,Panaderia,2025-06-14,EcoStar,87.36,432
+Frijoles Negros,7500259,Abarrotes,2028-10-08,VidaMax,43.92,485
+Frijoles Negros 500g,7500260,Abarrotes,2027-02-09,Knorr,88.36,315
+Frijoles Negros 1kg,7500261,Abarrotes,2026-10-20,FreshCo,33.31,163
+Frijoles Negros Light,7500262,Abarrotes,2026-12-04,PureFarm,15.48,314
+Frijoles Negros Premium,7500263,Abarrotes,2026-04-04,Knorr,24.2,488
+Frijoles Negros Familiar,7500264,Abarrotes,2028-12-23,PureFarm,26.47,393
+Frijoles Rojos,7500265,Abarrotes,2025-12-18,VidaMax,47.65,143
+Frijoles Rojos 500g,7500266,Abarrotes,2028-11-25,NaturaBio,5.72,176
+Frijoles Rojos 1kg,7500267,Abarrotes,2028-05-25,FreshCo,27.2,157
+Frijoles Rojos Light,7500268,Abarrotes,2027-05-09,AlimentaVida,117.34,386
+Frijoles Rojos Premium,7500269,Abarrotes,2027-11-10,VidaMax,75.95,390
+Frijoles Rojos Familiar,7500270,Abarrotes,2027-03-09,PureFarm,33.08,168
+Frijoles Volteados,7500271,Abarrotes,2025-02-15,Generico,5.18,240
+Frijoles Volteados 500g,7500272,Abarrotes,2028-08-06,EcoStar,90.17,325
+Frijoles Volteados 1kg,7500273,Abarrotes,2027-10-13,EcoStar,31.97,92
+Frijoles Volteados Light,7500274,Abarrotes,2028-08-01,SuperMax,31.73,442
+Frijoles Volteados Premium,7500275,Abarrotes,2026-07-21,McCormick,85.3,161
+Frijoles Volteados Familiar,7500276,Abarrotes,2028-12-21,VidaMax,20.03,171
+Arroz Blanco,7500277,Abarrotes,2026-04-09,NutriPlus,93.92,95
+Arroz Blanco 500g,7500278,Abarrotes,2026-06-22,Marca Propia,49.76,377
+Arroz Blanco 1kg,7500279,Abarrotes,2026-02-27,Maggi,6.98,403
+Arroz Blanco Light,7500280,Abarrotes,2028-02-07,VidaMax,33.33,259
+Arroz Blanco Premium,7500281,Abarrotes,2027-04-23,Marca Propia,50.38,463
+Arroz Blanco Familiar,7500282,Abarrotes,2026-10-06,Knorr,115.14,65
+Pasta Espagueti,7500283,Abarrotes,2026-05-27,AlimentaVida,87.13,359
+Pasta Espagueti 500g,7500284,Abarrotes,2027-03-21,NaturaBio,94.28,120
+Pasta Espagueti 1kg,7500285,Abarrotes,2026-08-14,Herdez,43.73,233
+Pasta Espagueti Light,7500286,Abarrotes,2026-08-13,La Costena,52.4,84
+Pasta Espagueti Premium,7500287,Abarrotes,2026-08-22,Maggi,17.9,303
+Pasta Espagueti Familiar,7500288,Abarrotes,2025-11-10,Knorr,57.35,344
+Pasta Tornillo,7500289,Abarrotes,2026-11-08,Herdez,72.8,493
+Pasta Tornillo 500g,7500290,Abarrotes,2028-03-27,Knorr,107.24,332
+Pasta Tornillo 1kg,7500291,Abarrotes,2025-10-06,NaturaBio,35.03,372
+Pasta Tornillo Light,7500292,Abarrotes,2026-11-21,Maggi,86.19,282
+Pasta Tornillo Premium,7500293,Abarrotes,2028-04-12,FreshCo,109.9,317
+Pasta Tornillo Familiar,7500294,Abarrotes,2026-05-05,PureFarm,106.7,113
+Pasta Codito,7500295,Abarrotes,2026-05-05,Generico,34.93,74
+Pasta Codito 500g,7500296,Abarrotes,2027-04-11,SuperMax,38.52,274
+Pasta Codito 1kg,7500297,Abarrotes,2028-05-15,Maggi,105.6,147
+Pasta Codito Light,7500298,Abarrotes,2025-08-28,VidaMax,34.56,305
+Pasta Codito Premium,7500299,Abarrotes,2028-12-02,Generico,53.65,492
+Pasta Codito Familiar,7500300,Abarrotes,2025-06-17,NutriPlus,107.83,9
+Atun en Agua,7500301,Abarrotes,2027-08-19,McCormick,107.09,279
+Atun en Agua 500g,7500302,Abarrotes,2025-03-06,VidaMax,35.1,312
+Atun en Agua 1kg,7500303,Abarrotes,2026-10-11,VidaMax,114.96,46
+Atun en Agua Light,7500304,Abarrotes,2027-01-10,EcoStar,34.27,225
+Atun en Agua Premium,7500305,Abarrotes,2025-11-25,Herdez,113.33,246
+Atun en Agua Familiar,7500306,Abarrotes,2027-12-15,VidaMax,47.5,155
+Atun en Aceite,7500307,Abarrotes,2025-08-22,NutriPlus,72.71,414
+Atun en Aceite 500g,7500308,Abarrotes,2027-08-01,Marca Propia,68.49,112
+Atun en Aceite 1kg,7500309,Abarrotes,2028-09-20,La Costena,86.95,370
+Atun en Aceite Light,7500310,Abarrotes,2026-06-26,Knorr,109.51,8
+Atun en Aceite Premium,7500311,Abarrotes,2027-01-21,Generico,75.05,379
+Atun en Aceite Familiar,7500312,Abarrotes,2025-06-21,Maggi,73.65,371
+Sardinas,7500313,Abarrotes,2027-06-14,La Costena,29.82,216
+Sardinas 500g,7500314,Abarrotes,2026-06-08,EcoStar,94.43,197
+Sardinas 1kg,7500315,Abarrotes,2025-06-07,Herdez,77.09,220
+Sardinas Light,7500316,Abarrotes,2027-02-21,NaturaBio,69.87,69
+Sardinas Premium,7500317,Abarrotes,2027-10-28,NutriPlus,87.1,285
+Sardinas Familiar,7500318,Abarrotes,2027-09-22,Marca Propia,32.81,60
+Maiz Dulce,7500319,Abarrotes,2027-10-06,EcoStar,91.97,23
+Maiz Dulce 500g,7500320,Abarrotes,2028-02-17,AlimentaVida,69.04,457
+Maiz Dulce 1kg,7500321,Abarrotes,2027-05-04,McCormick,78.74,23
+Maiz Dulce Light,7500322,Abarrotes,2025-01-10,Herdez,5.06,55
+Maiz Dulce Premium,7500323,Abarrotes,2025-02-11,EcoStar,109.21,388
+Maiz Dulce Familiar,7500324,Abarrotes,2026-08-22,FreshCo,114.01,357
+Salsa Roja,7500325,Abarrotes,2027-09-02,PureFarm,64.57,203
+Salsa Roja 500g,7500326,Abarrotes,2027-09-05,La Costena,61.78,378
+Salsa Roja 1kg,7500327,Abarrotes,2027-10-11,Herdez,69.59,240
+Salsa Roja Light,7500328,Abarrotes,2026-06-24,Knorr,7.43,498
+Salsa Roja Premium,7500329,Abarrotes,2025-02-17,EcoStar,64.75,460
+Salsa Roja Familiar,7500330,Abarrotes,2025-06-11,Marca Propia,23.51,371
+Salsa Verde,7500331,Abarrotes,2025-01-14,NutriPlus,117.32,327
+Salsa Verde 500g,7500332,Abarrotes,2025-03-15,NaturaBio,115.52,491
+Salsa Verde 1kg,7500333,Abarrotes,2027-08-13,Generico,34.55,60
+Salsa Verde Light,7500334,Abarrotes,2026-06-15,Herdez,19.68,401
+Salsa Verde Premium,7500335,Abarrotes,2028-11-05,La Costena,46.29,401
+Salsa Verde Familiar,7500336,Abarrotes,2027-11-21,FreshCo,67.98,474
+Aceite Vegetal,7500337,Abarrotes,2027-11-23,FreshCo,102.65,77
+Aceite Vegetal 500g,7500338,Abarrotes,2027-06-23,EcoStar,107.6,376
+Aceite Vegetal 1kg,7500339,Abarrotes,2027-09-18,AlimentaVida,29.32,350
+Aceite Vegetal Light,7500340,Abarrotes,2028-09-11,AlimentaVida,60.48,360
+Aceite Vegetal Premium,7500341,Abarrotes,2026-02-27,EcoStar,7.51,174
+Aceite Vegetal Familiar,7500342,Abarrotes,2026-09-06,La Costena,45.15,37
+Aceite de Oliva,7500343,Abarrotes,2028-04-02,VidaMax,31.27,248
+Aceite de Oliva 500g,7500344,Abarrotes,2025-10-10,McCormick,110.55,319
+Aceite de Oliva 1kg,7500345,Abarrotes,2025-02-02,AlimentaVida,42.54,133
+Aceite de Oliva Light,7500346,Abarrotes,2028-08-10,Maggi,38.17,150
+Aceite de Oliva Premium,7500347,Abarrotes,2026-04-09,Maggi,103.33,444
+Aceite de Oliva Familiar,7500348,Abarrotes,2027-01-02,McCormick,119.37,149
+Azucar Blanca,7500349,Abarrotes,2026-05-12,AlimentaVida,53.22,439
+Azucar Blanca 500g,7500350,Abarrotes,2026-05-12,Generico,44.27,231
+Azucar Blanca 1kg,7500351,Abarrotes,2028-02-16,Maggi,55.29,418
+Azucar Blanca Light,7500352,Abarrotes,2028-07-10,VidaMax,117.72,138
+Azucar Blanca Premium,7500353,Abarrotes,2028-05-06,VidaMax,21.38,99
+Azucar Blanca Familiar,7500354,Abarrotes,2026-02-04,NutriPlus,13.38,218
+Sal Refinada,7500355,Abarrotes,2028-09-21,La Costena,38.6,251
+Sal Refinada 500g,7500356,Abarrotes,2028-06-11,La Costena,13.16,469
+Sal Refinada 1kg,7500357,Abarrotes,2026-07-15,McCormick,87.44,273
+Sal Refinada Light,7500358,Abarrotes,2025-01-16,AlimentaVida,23.76,284
+Sal Refinada Premium,7500359,Abarrotes,2025-05-20,La Costena,49.98,104
+Sal Refinada Familiar,7500360,Abarrotes,2027-11-03,NutriPlus,100.53,499
+Harina de Trigo,7500361,Abarrotes,2028-09-11,EcoStar,109.79,181
+Harina de Trigo 500g,7500362,Abarrotes,2026-08-25,NutriPlus,77.77,393
+Harina de Trigo 1kg,7500363,Abarrotes,2026-01-18,McCormick,96.37,193
+Harina de Trigo Light,7500364,Abarrotes,2028-12-05,Knorr,17.32,134
+Harina de Trigo Premium,7500365,Abarrotes,2025-05-16,Knorr,48.98,53
+Harina de Trigo Familiar,7500366,Abarrotes,2025-09-16,NaturaBio,99.71,268
+Maicena,7500367,Abarrotes,2025-07-27,McCormick,118.48,199
+Maicena 500g,7500368,Abarrotes,2028-07-16,PureFarm,107.34,216
+Maicena 1kg,7500369,Abarrotes,2028-10-19,PureFarm,42.98,427
+Maicena Light,7500370,Abarrotes,2028-10-14,La Costena,18.44,344
+Maicena Premium,7500371,Abarrotes,2026-10-04,VidaMax,24.27,498
+Maicena Familiar,7500372,Abarrotes,2026-07-18,La Costena,77.36,351
+Vinagre Blanco,7500373,Abarrotes,2027-05-09,McCormick,55.48,112
+Vinagre Blanco 500g,7500374,Abarrotes,2027-10-21,Marca Propia,58.72,452
+Vinagre Blanco 1kg,7500375,Abarrotes,2028-01-11,VidaMax,32.06,409
+Vinagre Blanco Light,7500376,Abarrotes,2028-04-15,EcoStar,30.43,237
+Vinagre Blanco Premium,7500377,Abarrotes,2028-06-10,PureFarm,8.87,309
+Vinagre Blanco Familiar,7500378,Abarrotes,2026-06-05,Herdez,110.47,432
+Mayonesa,7500379,Abarrotes,2025-03-24,PureFarm,97.32,387
+Mayonesa 500g,7500380,Abarrotes,2027-03-05,NaturaBio,23.35,325
+Mayonesa 1kg,7500381,Abarrotes,2025-03-07,McCormick,47.13,466
+Mayonesa Light,7500382,Abarrotes,2025-03-01,NaturaBio,21.77,189
+Mayonesa Premium,7500383,Abarrotes,2027-10-14,VidaMax,93.41,271
+Mayonesa Familiar,7500384,Abarrotes,2026-12-27,VidaMax,72.42,121
+Ketchup,7500385,Abarrotes,2028-12-17,Knorr,14.76,372
+Ketchup 500g,7500386,Abarrotes,2025-03-09,AlimentaVida,14.9,138
+Ketchup 1kg,7500387,Abarrotes,2025-03-24,Herdez,49.46,317
+Ketchup Light,7500388,Abarrotes,2025-11-11,EcoStar,20.04,464
+Ketchup Premium,7500389,Abarrotes,2028-11-12,Knorr,67.57,458
+Ketchup Familiar,7500390,Abarrotes,2028-05-22,AlimentaVida,73.41,242
+Mostaza,7500391,Abarrotes,2026-07-22,Marca Propia,65.09,17
+Mostaza 500g,7500392,Abarrotes,2025-01-27,McCormick,114.99,385
+Mostaza 1kg,7500393,Abarrotes,2028-09-18,SuperMax,77.85,363
+Mostaza Light,7500394,Abarrotes,2027-01-19,Knorr,70.18,356
+Mostaza Premium,7500395,Abarrotes,2026-07-25,Generico,35.92,428
+Mostaza Familiar,7500396,Abarrotes,2028-09-03,McCormick,57.69,163
+Manzana Roja,7500397,Frutas,2028-07-23,SuperMax,88.04,85
+Manzana Roja 500g,7500398,Frutas,2028-10-12,PureFarm,108.55,485
+Manzana Roja 1kg,7500399,Frutas,2028-09-02,Dole,18.39,414
+Manzana Roja Light,7500400,Frutas,2028-11-08,VidaMax,86.75,142
+Manzana Roja Premium,7500401,Frutas,2027-08-09,SuperMax,102.75,487
+Manzana Roja Familiar,7500402,Frutas,2026-07-04,Generico,106.55,402
+Manzana Verde,7500403,Frutas,2027-06-16,NutriPlus,80.37,62
+Manzana Verde 500g,7500404,Frutas,2026-03-16,FreshCo,71.61,140
+Manzana Verde 1kg,7500405,Frutas,2027-05-27,EcoStar,117.04,336
+Manzana Verde Light,7500406,Frutas,2025-09-28,EcoStar,23.63,249
+Manzana Verde Premium,7500407,Frutas,2027-12-19,VidaMax,40.03,222
+Manzana Verde Familiar,7500408,Frutas,2025-11-10,Del Monte,26.97,314
+Pera,7500409,Frutas,2028-02-16,Del Monte,4.28,291
+Pera 500g,7500410,Frutas,2027-08-18,Dole,35.87,373
+Pera 1kg,7500411,Frutas,2028-07-28,FreshCo,51.86,134
+Pera Light,7500412,Frutas,2025-09-05,EcoStar,68.9,337
+Pera Premium,7500413,Frutas,2027-02-22,Dole,47.45,275
+Pera Familiar,7500414,Frutas,2026-07-02,Generico,90.61,488
+Naranja,7500415,Frutas,2028-10-01,NutriPlus,6.67,301
+Naranja 500g,7500416,Frutas,2025-04-10,SuperMax,105.68,329
+Naranja 1kg,7500417,Frutas,2025-12-18,VidaMax,56.3,106
+Naranja Light,7500418,Frutas,2026-01-17,Chiquita,53.64,240
+Naranja Premium,7500419,Frutas,2026-05-24,Fresh,48.96,327
+Naranja Familiar,7500420,Frutas,2028-04-16,Fresh,65.98,320
+Mandarina,7500421,Frutas,2028-01-25,Fresh,22.57,222
+Mandarina 500g,7500422,Frutas,2025-07-28,NutriPlus,7.68,480
+Mandarina 1kg,7500423,Frutas,2027-03-05,NaturaBio,108.94,295
+Mandarina Light,7500424,Frutas,2028-05-08,FreshCo,9.96,216
+Mandarina Premium,7500425,Frutas,2025-06-20,Dole,33.52,239
+Mandarina Familiar,7500426,Frutas,2028-08-11,Dole,24.16,346
+Uva Verde,7500427,Frutas,2028-02-12,FreshCo,118.85,49
+Uva Verde 500g,7500428,Frutas,2025-05-13,FreshCo,48.31,156
+Uva Verde 1kg,7500429,Frutas,2026-09-04,Fresh,90.1,318
+Uva Verde Light,7500430,Frutas,2028-01-10,AlimentaVida,70.12,366
+Uva Verde Premium,7500431,Frutas,2026-11-09,EcoStar,89.55,393
+Uva Verde Familiar,7500432,Frutas,2026-03-25,Del Monte,16.52,57
+Uva Morada,7500433,Frutas,2028-05-11,NutriPlus,15.73,269
+Uva Morada 500g,7500434,Frutas,2027-03-15,SuperMax,84.06,288
+Uva Morada 1kg,7500435,Frutas,2025-12-28,Generico,79.15,78
+Uva Morada Light,7500436,Frutas,2025-01-11,Marca Propia,9.09,360
+Uva Morada Premium,7500437,Frutas,2028-05-11,Del Monte,119.86,367
+Uva Morada Familiar,7500438,Frutas,2025-08-20,NutriPlus,73.83,253
+Fresa,7500439,Frutas,2027-03-25,Marca Propia,11.83,89
+Fresa 500g,7500440,Frutas,2027-03-15,Tropicana,71.45,212
+Fresa 1kg,7500441,Frutas,2025-03-12,Del Monte,95.2,266
+Fresa Light,7500442,Frutas,2026-08-02,Chiquita,14.31,162
+Fresa Premium,7500443,Frutas,2025-07-23,Dole,16.21,428
+Fresa Familiar,7500444,Frutas,2026-02-02,Del Monte,86.5,386
+Platano,7500445,Frutas,2026-10-19,Chiquita,80.01,74
+Platano 500g,7500446,Frutas,2027-07-02,AlimentaVida,73.03,467
+Platano 1kg,7500447,Frutas,2027-11-18,FreshCo,83.21,56
+Platano Light,7500448,Frutas,2027-01-21,EcoStar,83.7,414
+Platano Premium,7500449,Frutas,2026-09-26,Dole,116.97,315
+Platano Familiar,7500450,Frutas,2026-01-08,SuperMax,97.39,46
+Sandia,7500451,Frutas,2025-06-07,Marca Propia,84.37,118
+Sandia 500g,7500452,Frutas,2028-08-17,AlimentaVida,73.71,61
+Sandia 1kg,7500453,Frutas,2025-05-01,NutriPlus,111.35,237
+Sandia Light,7500454,Frutas,2027-05-25,FreshCo,4.22,88
+Sandia Premium,7500455,Frutas,2025-02-26,PureFarm,102.31,139
+Sandia Familiar,7500456,Frutas,2028-04-19,Fresh,91.74,352
+Melon,7500457,Frutas,2026-09-19,Del Monte,56.26,322
+Melon 500g,7500458,Frutas,2028-01-24,Dole,48.44,355
+Melon 1kg,7500459,Frutas,2027-07-01,AlimentaVida,34.21,480
+Melon Light,7500460,Frutas,2028-11-24,Del Monte,82.57,144
+Melon Premium,7500461,Frutas,2025-09-21,Del Monte,40.13,95
+Melon Familiar,7500462,Frutas,2025-05-06,FreshCo,99.35,72
+Piña,7500463,Frutas,2025-05-16,Chiquita,70.19,229
+Piña 500g,7500464,Frutas,2025-04-12,Chiquita,53.13,403
+Piña 1kg,7500465,Frutas,2026-11-19,Fresh,86.62,382
+Piña Light,7500466,Frutas,2028-02-13,SuperMax,114.4,466
+Piña Premium,7500467,Frutas,2025-10-24,PureFarm,113.14,131
+Piña Familiar,7500468,Frutas,2027-03-21,Chiquita,73.95,482
+Mango,7500469,Frutas,2027-09-19,NaturaBio,33.0,396
+Mango 500g,7500470,Frutas,2028-12-27,Tropicana,64.51,436
+Mango 1kg,7500471,Frutas,2026-07-07,Chiquita,107.55,179
+Mango Light,7500472,Frutas,2028-09-26,EcoStar,62.53,322
+Mango Premium,7500473,Frutas,2028-08-06,Chiquita,113.17,387
+Mango Familiar,7500474,Frutas,2026-02-03,Chiquita,115.61,261
+Papaya,7500475,Frutas,2025-04-14,VidaMax,36.69,14
+Papaya 500g,7500476,Frutas,2028-09-03,EcoStar,13.96,35
+Papaya 1kg,7500477,Frutas,2028-04-24,AlimentaVida,93.88,179
+Papaya Light,7500478,Frutas,2026-03-25,EcoStar,34.52,128
+Papaya Premium,7500479,Frutas,2025-10-04,Tropicana,12.9,304
+Papaya Familiar,7500480,Frutas,2027-02-12,SuperMax,60.46,147
+Kiwi,7500481,Frutas,2026-07-27,NutriPlus,31.6,466
+Kiwi 500g,7500482,Frutas,2028-07-23,Del Monte,45.47,437
+Kiwi 1kg,7500483,Frutas,2026-08-28,Marca Propia,45.08,310
+Kiwi Light,7500484,Frutas,2028-08-22,Del Monte,39.46,179
+Kiwi Premium,7500485,Frutas,2025-08-01,Fresh,65.92,174
+Kiwi Familiar,7500486,Frutas,2028-04-20,PureFarm,102.89,225
+Limon,7500487,Frutas,2026-11-21,Generico,93.34,226
+Limon 500g,7500488,Frutas,2027-03-10,FreshCo,96.92,32
+Limon 1kg,7500489,Frutas,2026-09-12,Marca Propia,7.15,44
+Limon Light,7500490,Frutas,2028-07-24,Generico,94.45,89
+Limon Premium,7500491,Frutas,2025-08-14,Del Monte,28.58,208
+Limon Familiar,7500492,Frutas,2028-03-05,Fresh,35.78,149
+Tomate,7500493,Verduras,2027-10-19,VidaMax,98.71,290
+Tomate 500g,7500494,Verduras,2028-05-20,NaturaBio,42.3,434
+Tomate 1kg,7500495,Verduras,2025-11-28,NaturaBio,37.99,64
+Tomate Light,7500496,Verduras,2025-10-12,NutriPlus,104.28,143
+Tomate Premium,7500497,Verduras,2025-02-06,Campo,38.05,28
+Tomate Familiar,7500498,Verduras,2028-06-16,AlimentaVida,32.24,238
+Cebolla,7500499,Verduras,2026-06-17,PureFarm,115.47,243
+Cebolla 500g,7500500,Verduras,2028-12-07,Marca Propia,36.51,244
+Cebolla 1kg,7500501,Verduras,2025-10-24,Nature,51.26,60
+Cebolla Light,7500502,Verduras,2026-11-06,Nature,15.91,232
+Cebolla Premium,7500503,Verduras,2026-05-13,Del Monte,15.52,186
+Cebolla Familiar,7500504,Verduras,2026-04-13,Generico,54.14,103
+Papa,7500505,Verduras,2025-10-23,Marca Propia,46.43,485
+Papa 500g,7500506,Verduras,2026-12-11,Campo,110.06,43
+Papa 1kg,7500507,Verduras,2027-12-26,NutriPlus,62.95,298
+Papa Light,7500508,Verduras,2028-07-09,NaturaBio,69.7,463
+Papa Premium,7500509,Verduras,2028-05-04,Fresh,80.14,369
+Papa Familiar,7500510,Verduras,2025-08-27,Green Giant,67.65,483
+Zanahoria,7500511,Verduras,2028-11-13,Del Monte,60.67,498
+Zanahoria 500g,7500512,Verduras,2028-04-27,Generico,84.53,50
+Zanahoria 1kg,7500513,Verduras,2027-10-04,NaturaBio,62.81,349
+Zanahoria Light,7500514,Verduras,2026-09-25,Marca Propia,110.23,135
+Zanahoria Premium,7500515,Verduras,2025-02-11,Green Giant,98.24,300
+Zanahoria Familiar,7500516,Verduras,2027-02-22,FreshCo,109.9,274
+Brocoli,7500517,Verduras,2025-10-19,Green Giant,90.03,203
+Brocoli 500g,7500518,Verduras,2025-02-08,SuperMax,15.4,133
+Brocoli 1kg,7500519,Verduras,2026-10-23,FreshCo,57.28,211
+Brocoli Light,7500520,Verduras,2027-04-23,Fresh,21.86,55
+Brocoli Premium,7500521,Verduras,2028-01-10,Green Giant,97.36,449
+Brocoli Familiar,7500522,Verduras,2027-07-02,AlimentaVida,69.57,270
+Coliflor,7500523,Verduras,2026-06-13,Marca Propia,91.04,422
+Coliflor 500g,7500524,Verduras,2025-12-21,NaturaBio,4.06,322
+Coliflor 1kg,7500525,Verduras,2026-02-07,Campo,18.63,484
+Coliflor Light,7500526,Verduras,2026-09-28,Fresh,93.5,44
+Coliflor Premium,7500527,Verduras,2028-01-05,Green Giant,30.13,373
+Coliflor Familiar,7500528,Verduras,2026-04-25,Marca Propia,94.93,133
+Lechuga,7500529,Verduras,2026-10-10,Del Monte,109.42,228
+Lechuga 500g,7500530,Verduras,2026-04-06,SuperMax,119.06,408
+Lechuga 1kg,7500531,Verduras,2028-09-28,Fresh,65.73,248
+Lechuga Light,7500532,Verduras,2028-01-27,EcoStar,100.5,99
+Lechuga Premium,7500533,Verduras,2026-03-03,VidaMax,29.03,435
+Lechuga Familiar,7500534,Verduras,2027-11-06,Generico,69.9,54
+Espinaca,7500535,Verduras,2026-10-13,NutriPlus,3.44,361
+Espinaca 500g,7500536,Verduras,2025-12-02,SuperMax,74.71,341
+Espinaca 1kg,7500537,Verduras,2025-07-01,EcoStar,75.08,273
+Espinaca Light,7500538,Verduras,2028-09-09,FreshCo,88.0,247
+Espinaca Premium,7500539,Verduras,2025-08-11,Campo,58.51,461
+Espinaca Familiar,7500540,Verduras,2025-03-06,Del Monte,116.79,330
+Apio,7500541,Verduras,2026-11-12,SuperMax,40.49,274
+Apio 500g,7500542,Verduras,2025-02-08,Marca Propia,42.84,5
+Apio 1kg,7500543,Verduras,2025-12-27,EcoStar,79.28,158
+Apio Light,7500544,Verduras,2027-10-25,Campo,14.34,221
+Apio Premium,7500545,Verduras,2025-09-15,EcoStar,96.01,161
+Apio Familiar,7500546,Verduras,2027-05-15,NutriPlus,49.1,263
+Pepino,7500547,Verduras,2025-11-07,Fresh,38.3,424
+Pepino 500g,7500548,Verduras,2027-03-06,EcoStar,34.2,464
+Pepino 1kg,7500549,Verduras,2026-08-22,SuperMax,5.51,243
+Pepino Light,7500550,Verduras,2027-07-10,SuperMax,15.63,42
+Pepino Premium,7500551,Verduras,2025-11-04,SuperMax,24.94,330
+Pepino Familiar,7500552,Verduras,2027-08-07,AlimentaVida,92.14,423
+Chiles,7500553,Verduras,2025-10-18,SuperMax,82.11,193
+Chiles 500g,7500554,Verduras,2026-12-17,VidaMax,77.85,50
+Chiles 1kg,7500555,Verduras,2025-10-17,SuperMax,70.79,140
+Chiles Light,7500556,Verduras,2026-09-27,PureFarm,84.41,400
+Chiles Premium,7500557,Verduras,2025-08-09,Generico,59.98,191
+Chiles Familiar,7500558,Verduras,2028-03-27,AlimentaVida,21.4,163
+Elote,7500559,Verduras,2028-12-25,Del Monte,61.62,379
+Elote 500g,7500560,Verduras,2027-09-27,NaturaBio,83.49,313
+Elote 1kg,7500561,Verduras,2028-03-06,NaturaBio,36.37,259
+Elote Light,7500562,Verduras,2026-12-14,Nature,107.41,225
+Elote Premium,7500563,Verduras,2026-06-04,AlimentaVida,88.54,227
+Elote Familiar,7500564,Verduras,2027-01-03,Green Giant,38.6,407
+Aguacate,7500565,Verduras,2027-03-06,FreshCo,65.03,80
+Aguacate 500g,7500566,Verduras,2025-03-03,EcoStar,119.32,17
+Aguacate 1kg,7500567,Verduras,2027-07-02,Campo,44.28,376
+Aguacate Light,7500568,Verduras,2026-09-27,NutriPlus,68.18,39
+Aguacate Premium,7500569,Verduras,2025-01-09,Campo,36.91,305
+Aguacate Familiar,7500570,Verduras,2026-08-17,Del Monte,44.31,282
+Pimiento Rojo,7500571,Verduras,2027-09-05,SuperMax,48.04,38
+Pimiento Rojo 500g,7500572,Verduras,2026-03-01,Nature,46.65,279
+Pimiento Rojo 1kg,7500573,Verduras,2025-02-24,Nature,28.06,96
+Pimiento Rojo Light,7500574,Verduras,2025-07-18,Del Monte,60.96,305
+Pimiento Rojo Premium,7500575,Verduras,2026-05-16,Fresh,91.16,344
+Pimiento Rojo Familiar,7500576,Verduras,2026-07-24,Del Monte,118.66,450
+Pimiento Verde,7500577,Verduras,2027-02-07,VidaMax,23.66,41
+Pimiento Verde 500g,7500578,Verduras,2028-11-12,Del Monte,42.38,279
+Pimiento Verde 1kg,7500579,Verduras,2028-01-13,Del Monte,15.66,20
+Pimiento Verde Light,7500580,Verduras,2027-11-27,Generico,62.17,466
+Pimiento Verde Premium,7500581,Verduras,2026-10-12,EcoStar,83.17,140
+Pimiento Verde Familiar,7500582,Verduras,2027-09-11,Fresh,103.89,295
+Pechuga de Pollo,7500583,Carnes,2025-06-12,Marca Propia,30.75,108
+Pechuga de Pollo 500g,7500584,Carnes,2026-04-19,EcoStar,102.72,222
+Pechuga de Pollo 1kg,7500585,Carnes,2025-01-06,AlimentaVida,73.09,440
+Pechuga de Pollo Light,7500586,Carnes,2025-06-02,EcoStar,113.06,211
+Pechuga de Pollo Premium,7500587,Carnes,2026-02-05,Zwan,42.99,456
+Pechuga de Pollo Familiar,7500588,Carnes,2027-04-18,SuperMax,56.47,345
+Muslo de Pollo,7500589,Carnes,2025-01-18,Campofrio,94.33,315
+Muslo de Pollo 500g,7500590,Carnes,2026-07-10,VidaMax,87.27,337
+Muslo de Pollo 1kg,7500591,Carnes,2025-06-19,VidaMax,82.53,97
+Muslo de Pollo Light,7500592,Carnes,2027-10-08,SuperMax,10.26,428
+Muslo de Pollo Premium,7500593,Carnes,2028-11-24,Campofrio,97.62,235
+Muslo de Pollo Familiar,7500594,Carnes,2028-04-15,FreshCo,73.25,142
+Ala de Pollo,7500595,Carnes,2028-08-10,Zwan,57.95,307
+Ala de Pollo 500g,7500596,Carnes,2027-04-27,Zwan,111.8,109
+Ala de Pollo 1kg,7500597,Carnes,2026-08-22,EcoStar,57.43,133
+Ala de Pollo Light,7500598,Carnes,2025-03-11,NutriPlus,118.02,316
+Ala de Pollo Premium,7500599,Carnes,2027-09-02,NutriPlus,77.2,251
+Ala de Pollo Familiar,7500600,Carnes,2028-10-12,NutriPlus,113.71,275
+Carne Molida,7500601,Carnes,2025-03-07,Generico,85.13,286
+Carne Molida 500g,7500602,Carnes,2025-08-25,San Rafael,16.7,245
+Carne Molida 1kg,7500603,Carnes,2027-02-12,San Rafael,96.04,422
+Carne Molida Light,7500604,Carnes,2027-07-16,Zwan,77.94,290
+Carne Molida Premium,7500605,Carnes,2027-10-18,Generico,89.33,162
+Carne Molida Familiar,7500606,Carnes,2026-04-16,Oscar Mayer,106.6,75
+Bistec de Res,7500607,Carnes,2027-03-26,NaturaBio,46.06,454
+Bistec de Res 500g,7500608,Carnes,2027-04-08,NutriPlus,88.0,205
+Bistec de Res 1kg,7500609,Carnes,2028-02-07,PureFarm,14.47,153
+Bistec de Res Light,7500610,Carnes,2026-02-13,SuperMax,21.19,479
+Bistec de Res Premium,7500611,Carnes,2028-01-15,San Rafael,103.63,477
+Bistec de Res Familiar,7500612,Carnes,2027-03-22,Rica,9.87,295
+Chuleta de Cerdo,7500613,Carnes,2025-10-06,PureFarm,43.33,341
+Chuleta de Cerdo 500g,7500614,Carnes,2025-03-11,San Rafael,86.45,313
+Chuleta de Cerdo 1kg,7500615,Carnes,2028-12-17,Rica,16.31,287
+Chuleta de Cerdo Light,7500616,Carnes,2025-09-10,Rica,6.67,223
+Chuleta de Cerdo Premium,7500617,Carnes,2028-03-20,San Rafael,61.57,246
+Chuleta de Cerdo Familiar,7500618,Carnes,2027-01-14,NaturaBio,54.42,17
+Lomo de Cerdo,7500619,Carnes,2026-01-02,FreshCo,3.79,228
+Lomo de Cerdo 500g,7500620,Carnes,2026-06-26,FreshCo,47.21,51
+Lomo de Cerdo 1kg,7500621,Carnes,2026-02-23,Oscar Mayer,116.13,270
+Lomo de Cerdo Light,7500622,Carnes,2025-01-28,Marca Propia,27.88,472
+Lomo de Cerdo Premium,7500623,Carnes,2028-03-20,Zwan,14.83,370
+Lomo de Cerdo Familiar,7500624,Carnes,2025-10-16,PureFarm,28.24,389
+Salchicha,7500625,Carnes,2025-09-17,San Rafael,44.66,260
+Salchicha 500g,7500626,Carnes,2025-01-11,NutriPlus,33.8,445
+Salchicha 1kg,7500627,Carnes,2025-04-28,Oscar Mayer,97.41,27
+Salchicha Light,7500628,Carnes,2025-06-17,NaturaBio,12.69,266
+Salchicha Premium,7500629,Carnes,2025-03-25,Campofrio,92.39,269
+Salchicha Familiar,7500630,Carnes,2025-05-10,Marca Propia,64.91,343
+Jamon de Pavo,7500631,Carnes,2025-10-14,Zwan,37.6,443
+Jamon de Pavo 500g,7500632,Carnes,2027-08-18,FreshCo,114.63,180
+Jamon de Pavo 1kg,7500633,Carnes,2025-12-20,Zwan,3.14,38
+Jamon de Pavo Light,7500634,Carnes,2025-12-27,EcoStar,8.81,57
+Jamon de Pavo Premium,7500635,Carnes,2025-07-07,NutriPlus,66.4,122
+Jamon de Pavo Familiar,7500636,Carnes,2026-04-13,NutriPlus,41.5,196
+Chorizo,7500637,Carnes,2025-08-01,SuperMax,57.41,249
+Chorizo 500g,7500638,Carnes,2028-08-25,FreshCo,11.16,289
+Chorizo 1kg,7500639,Carnes,2028-09-28,NaturaBio,113.34,243
+Chorizo Light,7500640,Carnes,2025-06-10,PureFarm,115.66,96
+Chorizo Premium,7500641,Carnes,2026-02-11,San Rafael,23.87,47
+Chorizo Familiar,7500642,Carnes,2026-09-01,Oscar Mayer,54.42,158
+Mortadela,7500643,Carnes,2027-10-21,EcoStar,100.58,96
+Mortadela 500g,7500644,Carnes,2025-10-03,NaturaBio,113.56,42
+Mortadela 1kg,7500645,Carnes,2026-12-05,Generico,69.88,353
+Mortadela Light,7500646,Carnes,2025-12-21,EcoStar,96.56,160
+Mortadela Premium,7500647,Carnes,2025-05-26,FreshCo,77.01,216
+Mortadela Familiar,7500648,Carnes,2025-12-15,Campofrio,34.73,42
+Tocino,7500649,Carnes,2027-09-20,VidaMax,48.12,445
+Tocino 500g,7500650,Carnes,2026-06-24,Oscar Mayer,73.73,357
+Tocino 1kg,7500651,Carnes,2025-01-17,NutriPlus,83.48,395
+Tocino Light,7500652,Carnes,2028-05-17,Marca Propia,76.4,220
+Tocino Premium,7500653,Carnes,2025-09-04,Zwan,76.31,174
+Tocino Familiar,7500654,Carnes,2027-08-04,Rica,86.3,425
+Milanesa,7500655,Carnes,2025-09-23,NaturaBio,27.24,254
+Milanesa 500g,7500656,Carnes,2028-08-15,SuperMax,56.12,81
+Milanesa 1kg,7500657,Carnes,2027-03-16,PureFarm,21.18,456
+Milanesa Light,7500658,Carnes,2026-11-17,NutriPlus,33.77,240
+Milanesa Premium,7500659,Carnes,2026-12-14,NutriPlus,39.02,53
+Milanesa Familiar,7500660,Carnes,2026-07-06,FreshCo,99.49,490
+Filete de Tilapia,7500661,Carnes,2027-06-15,San Rafael,26.65,85
+Filete de Tilapia 500g,7500662,Carnes,2026-05-12,Campofrio,26.67,439
+Filete de Tilapia 1kg,7500663,Carnes,2027-07-02,EcoStar,67.39,218
+Filete de Tilapia Light,7500664,Carnes,2026-08-28,Rica,83.4,322
+Filete de Tilapia Premium,7500665,Carnes,2028-08-23,Rica,81.36,90
+Filete de Tilapia Familiar,7500666,Carnes,2027-03-06,Campofrio,70.2,258
+Camaron,7500667,Carnes,2028-11-16,FreshCo,114.1,380
+Camaron 500g,7500668,Carnes,2026-02-16,PureFarm,51.79,461
+Camaron 1kg,7500669,Carnes,2026-12-27,SuperMax,86.15,462
+Camaron Light,7500670,Carnes,2025-12-08,FreshCo,42.72,500
+Camaron Premium,7500671,Carnes,2025-12-09,Campofrio,19.78,171
+Camaron Familiar,7500672,Carnes,2027-09-11,SuperMax,66.86,315
+Detergente Polvo,7500673,Limpieza,2027-07-10,Generico,10.84,261
+Detergente Polvo 500g,7500674,Limpieza,2026-09-10,Pinol,116.93,416
+Detergente Polvo 1kg,7500675,Limpieza,2027-01-07,Marca Propia,105.38,55
+Detergente Polvo Light,7500676,Limpieza,2025-05-19,Ajax,51.0,113
+Detergente Polvo Premium,7500677,Limpieza,2026-05-26,Pinol,12.26,243
+Detergente Polvo Familiar,7500678,Limpieza,2026-12-20,Pinol,106.64,351
+Detergente Liquido,7500679,Limpieza,2026-08-07,Pinol,62.19,320
+Detergente Liquido 500g,7500680,Limpieza,2026-01-25,NutriPlus,18.47,242
+Detergente Liquido 1kg,7500681,Limpieza,2025-02-17,EcoStar,92.43,353
+Detergente Liquido Light,7500682,Limpieza,2026-04-01,Ariel,3.21,208
+Detergente Liquido Premium,7500683,Limpieza,2026-03-19,Marca Propia,101.17,229
+Detergente Liquido Familiar,7500684,Limpieza,2026-04-19,NutriPlus,75.28,115
+Suavizante Ropa,7500685,Limpieza,2028-02-27,Fabuloso,115.67,468
+Suavizante Ropa 500g,7500686,Limpieza,2026-04-28,AlimentaVida,37.66,294
+Suavizante Ropa 1kg,7500687,Limpieza,2026-08-15,Ajax,65.97,142
+Suavizante Ropa Light,7500688,Limpieza,2028-12-12,Marca Propia,66.15,188
+Suavizante Ropa Premium,7500689,Limpieza,2028-08-02,EcoStar,102.31,368
+Suavizante Ropa Familiar,7500690,Limpieza,2027-09-09,Marca Propia,5.22,212
+Cloro,7500691,Limpieza,2025-06-15,EcoStar,23.53,365
+Cloro 500g,7500692,Limpieza,2025-11-03,VidaMax,97.89,247
+Cloro 1kg,7500693,Limpieza,2028-11-26,Fabuloso,78.3,309
+Cloro Light,7500694,Limpieza,2025-02-07,Generico,38.54,347
+Cloro Premium,7500695,Limpieza,2027-04-25,SuperMax,10.95,257
+Cloro Familiar,7500696,Limpieza,2025-09-13,Generico,116.65,326
+Desinfectante Pino,7500697,Limpieza,2025-10-01,EcoStar,98.23,233
+Desinfectante Pino 500g,7500698,Limpieza,2027-03-19,Ajax,117.46,174
+Desinfectante Pino 1kg,7500699,Limpieza,2026-06-20,SuperMax,18.41,258
+Desinfectante Pino Light,7500700,Limpieza,2026-09-15,Ariel,27.58,268
+Desinfectante Pino Premium,7500701,Limpieza,2027-01-28,FreshCo,42.06,215
+Desinfectante Pino Familiar,7500702,Limpieza,2025-12-06,Ajax,99.82,475
+Limpiador Multiusos,7500703,Limpieza,2028-09-08,Marca Propia,37.71,288
+Limpiador Multiusos 500g,7500704,Limpieza,2028-08-17,VidaMax,20.52,270
+Limpiador Multiusos 1kg,7500705,Limpieza,2028-07-05,PureFarm,106.06,162
+Limpiador Multiusos Light,7500706,Limpieza,2025-06-09,EcoStar,61.65,478
+Limpiador Multiusos Premium,7500707,Limpieza,2027-02-12,NutriPlus,16.93,216
+Limpiador Multiusos Familiar,7500708,Limpieza,2025-11-20,Fabuloso,68.52,162
+Lavaplatos Liquido,7500709,Limpieza,2027-10-13,Generico,83.7,129
+Lavaplatos Liquido 500g,7500710,Limpieza,2026-02-01,NaturaBio,75.07,85
+Lavaplatos Liquido 1kg,7500711,Limpieza,2028-03-13,NutriPlus,19.45,343
+Lavaplatos Liquido Light,7500712,Limpieza,2028-02-14,SuperMax,23.81,323
+Lavaplatos Liquido Premium,7500713,Limpieza,2028-04-19,Generico,57.67,116
+Lavaplatos Liquido Familiar,7500714,Limpieza,2026-10-14,Fabuloso,10.55,329
+Esponja Verde,7500715,Limpieza,2028-12-16,Tide,17.41,126
+Esponja Verde 500g,7500716,Limpieza,2028-10-16,EcoStar,24.26,147
+Esponja Verde 1kg,7500717,Limpieza,2028-07-12,NutriPlus,34.23,157
+Esponja Verde Light,7500718,Limpieza,2027-07-14,Generico,113.56,471
+Esponja Verde Premium,7500719,Limpieza,2028-07-02,VidaMax,113.99,455
+Esponja Verde Familiar,7500720,Limpieza,2025-12-12,Ajax,79.63,84
+Papel Higienico,7500721,Limpieza,2027-04-26,VidaMax,57.59,45
+Papel Higienico 500g,7500722,Limpieza,2026-08-16,EcoStar,108.18,72
+Papel Higienico 1kg,7500723,Limpieza,2027-09-17,Ariel,87.46,333
+Papel Higienico Light,7500724,Limpieza,2025-09-06,SuperMax,44.57,436
+Papel Higienico Premium,7500725,Limpieza,2028-05-09,Generico,21.18,141
+Papel Higienico Familiar,7500726,Limpieza,2028-04-09,NutriPlus,13.23,129
+Servilletas,7500727,Limpieza,2026-08-21,SuperMax,57.53,122
+Servilletas 500g,7500728,Limpieza,2025-03-27,EcoStar,36.15,286
+Servilletas 1kg,7500729,Limpieza,2028-10-16,FreshCo,4.39,414
+Servilletas Light,7500730,Limpieza,2028-04-28,NaturaBio,45.65,297
+Servilletas Premium,7500731,Limpieza,2027-07-23,Marca Propia,69.92,150
+Servilletas Familiar,7500732,Limpieza,2025-12-10,EcoStar,24.9,221
+Toalla de Cocina,7500733,Limpieza,2025-11-02,Tide,67.07,46
+Toalla de Cocina 500g,7500734,Limpieza,2026-07-27,FreshCo,6.44,491
+Toalla de Cocina 1kg,7500735,Limpieza,2025-08-23,AlimentaVida,71.41,120
+Toalla de Cocina Light,7500736,Limpieza,2028-04-19,Pinol,77.83,57
+Toalla de Cocina Premium,7500737,Limpieza,2026-04-03,Ajax,86.86,450
+Toalla de Cocina Familiar,7500738,Limpieza,2027-04-11,NutriPlus,9.35,30
+Bolsa Basura,7500739,Limpieza,2026-12-19,SuperMax,81.83,440
+Bolsa Basura 500g,7500740,Limpieza,2025-02-24,FreshCo,101.16,175
+Bolsa Basura 1kg,7500741,Limpieza,2025-02-18,AlimentaVida,44.09,331
+Bolsa Basura Light,7500742,Limpieza,2028-02-02,Fabuloso,48.89,458
+Bolsa Basura Premium,7500743,Limpieza,2028-05-01,NaturaBio,33.38,90
+Bolsa Basura Familiar,7500744,Limpieza,2028-12-13,NaturaBio,99.22,432
+Limpiavidrios,7500745,Limpieza,2026-02-07,Ariel,66.68,415
+Limpiavidrios 500g,7500746,Limpieza,2025-05-13,AlimentaVida,115.02,403
+Limpiavidrios 1kg,7500747,Limpieza,2025-02-16,SuperMax,19.43,24
+Limpiavidrios Light,7500748,Limpieza,2028-03-02,Marca Propia,49.36,450
+Limpiavidrios Premium,7500749,Limpieza,2027-08-18,FreshCo,92.02,181
+Limpiavidrios Familiar,7500750,Limpieza,2028-03-08,PureFarm,21.8,214
+Desengrasante,7500751,Limpieza,2026-01-26,Ariel,103.38,333
+Desengrasante 500g,7500752,Limpieza,2028-03-10,Tide,78.34,315
+Desengrasante 1kg,7500753,Limpieza,2025-04-08,Ariel,67.62,403
+Desengrasante Light,7500754,Limpieza,2028-12-27,Fabuloso,28.1,357
+Desengrasante Premium,7500755,Limpieza,2025-02-22,Ajax,114.59,271
+Desengrasante Familiar,7500756,Limpieza,2026-06-07,EcoStar,4.81,484
+Shampoo Normal,7500757,Cuidado Personal,2025-08-07,AlimentaVida,29.25,144
+Shampoo Normal 500g,7500758,Cuidado Personal,2026-08-27,AlimentaVida,88.36,11
+Shampoo Normal 1kg,7500759,Cuidado Personal,2028-09-22,FreshCo,64.59,178
+Shampoo Normal Light,7500760,Cuidado Personal,2028-07-01,SuperMax,82.43,161
+Shampoo Normal Premium,7500761,Cuidado Personal,2028-06-12,VidaMax,37.31,11
+Shampoo Normal Familiar,7500762,Cuidado Personal,2027-03-02,NutriPlus,31.08,37
+Shampoo Anticaspa,7500763,Cuidado Personal,2027-06-15,NutriPlus,53.16,454
+Shampoo Anticaspa 500g,7500764,Cuidado Personal,2025-07-19,Gillette,39.85,441
+Shampoo Anticaspa 1kg,7500765,Cuidado Personal,2027-04-18,Dove,80.27,163
+Shampoo Anticaspa Light,7500766,Cuidado Personal,2027-04-16,EcoStar,18.0,427
+Shampoo Anticaspa Premium,7500767,Cuidado Personal,2027-02-22,FreshCo,23.75,462
+Shampoo Anticaspa Familiar,7500768,Cuidado Personal,2028-03-27,NaturaBio,79.67,470
+Acondicionador,7500769,Cuidado Personal,2025-11-24,NutriPlus,107.8,130
+Acondicionador 500g,7500770,Cuidado Personal,2026-06-13,NaturaBio,108.36,401
+Acondicionador 1kg,7500771,Cuidado Personal,2026-04-04,NutriPlus,56.05,98
+Acondicionador Light,7500772,Cuidado Personal,2028-05-03,Generico,62.59,381
+Acondicionador Premium,7500773,Cuidado Personal,2028-12-06,Generico,26.62,94
+Acondicionador Familiar,7500774,Cuidado Personal,2025-07-02,NutriPlus,81.49,290
+Jabon de Baño,7500775,Cuidado Personal,2028-02-26,EcoStar,95.54,402
+Jabon de Baño 500g,7500776,Cuidado Personal,2025-10-24,FreshCo,83.97,224
+Jabon de Baño 1kg,7500777,Cuidado Personal,2026-12-27,NaturaBio,11.14,131
+Jabon de Baño Light,7500778,Cuidado Personal,2025-09-21,Pantene,21.06,198
+Jabon de Baño Premium,7500779,Cuidado Personal,2026-08-01,PureFarm,84.36,486
+Jabon de Baño Familiar,7500780,Cuidado Personal,2027-10-19,PureFarm,93.4,101
+Gel de Baño,7500781,Cuidado Personal,2027-01-06,Dove,109.1,208
+Gel de Baño 500g,7500782,Cuidado Personal,2025-01-10,Nivea,70.43,343
+Gel de Baño 1kg,7500783,Cuidado Personal,2027-06-01,Colgate,96.08,93
+Gel de Baño Light,7500784,Cuidado Personal,2027-11-15,Colgate,64.98,243
+Gel de Baño Premium,7500785,Cuidado Personal,2025-02-07,Generico,38.45,16
+Gel de Baño Familiar,7500786,Cuidado Personal,2025-06-25,VidaMax,102.14,415
+Desodorante Roll-on,7500787,Cuidado Personal,2025-04-16,Marca Propia,88.94,50
+Desodorante Roll-on 500g,7500788,Cuidado Personal,2026-05-01,Marca Propia,94.16,209
+Desodorante Roll-on 1kg,7500789,Cuidado Personal,2026-02-26,Dove,40.53,142
+Desodorante Roll-on Light,7500790,Cuidado Personal,2026-12-19,Pantene,49.65,135
+Desodorante Roll-on Premium,7500791,Cuidado Personal,2027-06-05,Generico,8.82,134
+Desodorante Roll-on Familiar,7500792,Cuidado Personal,2026-05-24,Colgate,5.33,190
+Desodorante Spray,7500793,Cuidado Personal,2027-04-12,Pantene,69.06,243
+Desodorante Spray 500g,7500794,Cuidado Personal,2027-07-07,Nivea,116.63,473
+Desodorante Spray 1kg,7500795,Cuidado Personal,2027-04-24,Pantene,116.22,420
+Desodorante Spray Light,7500796,Cuidado Personal,2026-04-07,Marca Propia,38.11,429
+Desodorante Spray Premium,7500797,Cuidado Personal,2025-11-24,Gillette,53.61,396
+Desodorante Spray Familiar,7500798,Cuidado Personal,2028-06-27,Gillette,80.42,454
+Crema Corporal,7500799,Cuidado Personal,2028-07-23,EcoStar,62.48,382
+Crema Corporal 500g,7500800,Cuidado Personal,2025-06-22,Marca Propia,8.69,284
+Crema Corporal 1kg,7500801,Cuidado Personal,2028-10-12,Dove,99.4,462
+Crema Corporal Light,7500802,Cuidado Personal,2027-10-10,PureFarm,86.51,176
+Crema Corporal Premium,7500803,Cuidado Personal,2026-04-18,SuperMax,64.41,142
+Crema Corporal Familiar,7500804,Cuidado Personal,2025-03-27,PureFarm,56.0,405
+Pasta Dental,7500805,Cuidado Personal,2026-12-14,Colgate,105.62,131
+Pasta Dental 500g,7500806,Cuidado Personal,2026-03-08,NutriPlus,106.16,146
+Pasta Dental 1kg,7500807,Cuidado Personal,2028-04-05,Marca Propia,33.7,48
+Pasta Dental Light,7500808,Cuidado Personal,2026-12-16,VidaMax,29.93,378
+Pasta Dental Premium,7500809,Cuidado Personal,2026-04-18,Marca Propia,71.06,256
+Pasta Dental Familiar,7500810,Cuidado Personal,2025-02-05,AlimentaVida,72.42,452
+Cepillo Dental,7500811,Cuidado Personal,2028-01-01,Nivea,62.62,182
+Cepillo Dental 500g,7500812,Cuidado Personal,2028-05-12,Colgate,25.07,59
+Cepillo Dental 1kg,7500813,Cuidado Personal,2028-10-03,Colgate,50.31,214
+Cepillo Dental Light,7500814,Cuidado Personal,2028-09-27,PureFarm,97.42,31
+Cepillo Dental Premium,7500815,Cuidado Personal,2026-05-19,Generico,45.08,157
+Cepillo Dental Familiar,7500816,Cuidado Personal,2028-09-16,Nivea,15.76,224
+Hilo Dental,7500817,Cuidado Personal,2028-07-18,Dove,103.22,71
+Hilo Dental 500g,7500818,Cuidado Personal,2028-08-07,SuperMax,44.19,300
+Hilo Dental 1kg,7500819,Cuidado Personal,2026-10-20,Marca Propia,56.62,58
+Hilo Dental Light,7500820,Cuidado Personal,2027-03-22,Pantene,33.41,316
+Hilo Dental Premium,7500821,Cuidado Personal,2027-06-17,Colgate,54.97,472
+Hilo Dental Familiar,7500822,Cuidado Personal,2025-05-03,Dove,113.77,202
+Rastrillos,7500823,Cuidado Personal,2026-02-12,Generico,80.4,286
+Rastrillos 500g,7500824,Cuidado Personal,2028-05-24,EcoStar,30.01,111
+Rastrillos 1kg,7500825,Cuidado Personal,2025-08-06,VidaMax,53.57,75
+Rastrillos Light,7500826,Cuidado Personal,2025-10-08,FreshCo,108.07,381
+Rastrillos Premium,7500827,Cuidado Personal,2025-11-07,Generico,102.66,168
+Rastrillos Familiar,7500828,Cuidado Personal,2027-03-22,Marca Propia,27.67,168
+Crema de Afeitar,7500829,Cuidado Personal,2027-10-23,NutriPlus,4.54,219
+Crema de Afeitar 500g,7500830,Cuidado Personal,2027-06-22,Gillette,39.23,111
+Crema de Afeitar 1kg,7500831,Cuidado Personal,2026-06-08,Dove,65.36,5
+Crema de Afeitar Light,7500832,Cuidado Personal,2027-01-24,Generico,42.06,109
+Crema de Afeitar Premium,7500833,Cuidado Personal,2027-06-25,PureFarm,96.29,464
+Crema de Afeitar Familiar,7500834,Cuidado Personal,2028-07-11,Nivea,61.57,450
+Protector Solar,7500835,Cuidado Personal,2026-04-18,Marca Propia,63.27,269
+Protector Solar 500g,7500836,Cuidado Personal,2028-12-16,NaturaBio,7.69,494
+Protector Solar 1kg,7500837,Cuidado Personal,2028-07-27,EcoStar,25.86,10
+Protector Solar Light,7500838,Cuidado Personal,2027-02-20,Marca Propia,66.47,294
+Protector Solar Premium,7500839,Cuidado Personal,2025-04-27,Gillette,106.67,297
+Protector Solar Familiar,7500840,Cuidado Personal,2026-01-23,NutriPlus,9.27,47
+Papas Fritas Natural,7500841,Snacks,2025-01-13,Marca Propia,24.38,154
+Papas Fritas Natural 500g,7500842,Snacks,2026-06-06,FreshCo,88.73,487
+Papas Fritas Natural 1kg,7500843,Snacks,2028-02-11,Generico,20.96,132
+Papas Fritas Natural Light,7500844,Snacks,2026-10-20,VidaMax,27.02,57
+Papas Fritas Natural Premium,7500845,Snacks,2026-02-13,FreshCo,74.14,309
+Papas Fritas Natural Familiar,7500846,Snacks,2027-09-16,NutriPlus,30.6,399
+Papas Fritas BBQ,7500847,Snacks,2027-10-11,Doritos,89.01,374
+Papas Fritas BBQ 500g,7500848,Snacks,2028-05-03,Generico,75.31,69
+Papas Fritas BBQ 1kg,7500849,Snacks,2028-02-13,Barcel,50.43,41
+Papas Fritas BBQ Light,7500850,Snacks,2027-05-06,AlimentaVida,105.12,181
+Papas Fritas BBQ Premium,7500851,Snacks,2028-07-06,Sabritas,106.61,284
+Papas Fritas BBQ Familiar,7500852,Snacks,2025-09-11,NaturaBio,105.06,164
+Papas Fritas Limon,7500853,Snacks,2025-08-14,Generico,77.84,422
+Papas Fritas Limon 500g,7500854,Snacks,2025-08-28,VidaMax,41.2,42
+Papas Fritas Limon 1kg,7500855,Snacks,2026-03-23,Sabritas,27.59,466
+Papas Fritas Limon Light,7500856,Snacks,2027-06-18,FreshCo,105.06,206
+Papas Fritas Limon Premium,7500857,Snacks,2025-04-02,PureFarm,69.68,39
+Papas Fritas Limon Familiar,7500858,Snacks,2026-05-28,PureFarm,64.06,79
+Galletas Chokis,7500859,Snacks,2028-11-17,FreshCo,21.04,74
+Galletas Chokis 500g,7500860,Snacks,2028-02-25,VidaMax,43.42,163
+Galletas Chokis 1kg,7500861,Snacks,2025-07-09,Generico,15.13,59
+Galletas Chokis Light,7500862,Snacks,2028-03-07,Barcel,35.84,74
+Galletas Chokis Premium,7500863,Snacks,2028-12-21,Marca Propia,108.55,227
+Galletas Chokis Familiar,7500864,Snacks,2028-09-05,VidaMax,105.53,193
+Galletas Oreo,7500865,Snacks,2027-09-28,EcoStar,73.27,355
+Galletas Oreo 500g,7500866,Snacks,2026-01-28,NaturaBio,49.73,497
+Galletas Oreo 1kg,7500867,Snacks,2026-12-12,EcoStar,25.54,267
+Galletas Oreo Light,7500868,Snacks,2027-10-22,Barcel,80.97,168
+Galletas Oreo Premium,7500869,Snacks,2027-06-27,Barcel,119.63,105
+Galletas Oreo Familiar,7500870,Snacks,2027-03-13,Pringles,53.61,81
+Galletas Marias,7500871,Snacks,2026-03-15,Marca Propia,83.25,331
+Galletas Marias 500g,7500872,Snacks,2026-08-28,PureFarm,91.89,294
+Galletas Marias 1kg,7500873,Snacks,2028-12-11,Generico,118.26,484
+Galletas Marias Light,7500874,Snacks,2026-07-25,SuperMax,27.77,454
+Galletas Marias Premium,7500875,Snacks,2028-08-07,Ruffles,66.78,120
+Galletas Marias Familiar,7500876,Snacks,2026-03-21,EcoStar,97.56,190
+Palomitas,7500877,Snacks,2027-04-05,Marca Propia,105.25,430
+Palomitas 500g,7500878,Snacks,2028-03-28,Pringles,77.94,341
+Palomitas 1kg,7500879,Snacks,2026-03-04,Pringles,26.4,493
+Palomitas Light,7500880,Snacks,2025-03-17,FreshCo,56.73,67
+Palomitas Premium,7500881,Snacks,2025-01-08,Pringles,97.15,77
+Palomitas Familiar,7500882,Snacks,2026-01-18,FreshCo,46.89,217
+Cacahuates,7500883,Snacks,2028-02-03,NaturaBio,74.86,124
+Cacahuates 500g,7500884,Snacks,2025-05-16,VidaMax,56.25,179
+Cacahuates 1kg,7500885,Snacks,2025-07-24,Pringles,14.81,485
+Cacahuates Light,7500886,Snacks,2025-08-20,VidaMax,8.96,120
+Cacahuates Premium,7500887,Snacks,2025-11-22,Generico,90.34,39
+Cacahuates Familiar,7500888,Snacks,2028-04-20,Generico,13.54,358
+Chicharrones,7500889,Snacks,2028-06-06,EcoStar,56.68,84
+Chicharrones 500g,7500890,Snacks,2028-11-13,Generico,12.11,305
+Chicharrones 1kg,7500891,Snacks,2025-07-28,Generico,110.02,291
+Chicharrones Light,7500892,Snacks,2027-09-22,SuperMax,16.38,283
+Chicharrones Premium,7500893,Snacks,2027-07-27,AlimentaVida,53.84,287
+Chicharrones Familiar,7500894,Snacks,2025-10-23,Sabritas,20.63,433
+Gomitas,7500895,Snacks,2025-05-13,Pringles,90.39,194
+Gomitas 500g,7500896,Snacks,2027-06-18,EcoStar,111.05,289
+Gomitas 1kg,7500897,Snacks,2028-04-16,AlimentaVida,103.56,21
+Gomitas Light,7500898,Snacks,2025-12-25,Generico,71.14,403
+Gomitas Premium,7500899,Snacks,2028-11-08,SuperMax,80.48,36
+Gomitas Familiar,7500900,Snacks,2025-11-07,NaturaBio,23.63,58
+Chocolate Leche,7500901,Snacks,2025-10-12,VidaMax,51.25,388
+Chocolate Leche 500g,7500902,Snacks,2025-08-24,EcoStar,73.28,457
+Chocolate Leche 1kg,7500903,Snacks,2025-02-19,Pringles,109.05,228
+Chocolate Leche Light,7500904,Snacks,2027-03-18,FreshCo,75.7,254
+Chocolate Leche Premium,7500905,Snacks,2028-09-17,AlimentaVida,19.85,364
+Chocolate Leche Familiar,7500906,Snacks,2025-04-14,Pringles,88.72,399
+Chocolate Amargo,7500907,Snacks,2026-03-18,Barcel,51.62,492
+Chocolate Amargo 500g,7500908,Snacks,2028-06-01,NutriPlus,41.22,383
+Chocolate Amargo 1kg,7500909,Snacks,2026-01-13,Marca Propia,79.37,302
+Chocolate Amargo Light,7500910,Snacks,2025-04-25,Sabritas,3.58,16
+Chocolate Amargo Premium,7500911,Snacks,2027-11-24,SuperMax,23.38,444
+Chocolate Amargo Familiar,7500912,Snacks,2028-10-12,EcoStar,19.36,195
+Barra Cereal,7500913,Snacks,2026-06-03,Pringles,102.91,92
+Barra Cereal 500g,7500914,Snacks,2028-01-04,AlimentaVida,39.82,302
+Barra Cereal 1kg,7500915,Snacks,2028-02-02,Ruffles,65.48,286
+Barra Cereal Light,7500916,Snacks,2027-01-17,Ruffles,32.29,349
+Barra Cereal Premium,7500917,Snacks,2026-04-20,SuperMax,28.58,339
+Barra Cereal Familiar,7500918,Snacks,2028-02-12,Ruffles,74.05,142
+Maiz Inflado,7500919,Snacks,2026-09-25,Ruffles,96.25,280
+Maiz Inflado 500g,7500920,Snacks,2025-09-08,AlimentaVida,115.6,268
+Maiz Inflado 1kg,7500921,Snacks,2025-09-07,NaturaBio,102.82,64
+Maiz Inflado Light,7500922,Snacks,2026-04-08,Generico,90.14,496
+Maiz Inflado Premium,7500923,Snacks,2025-11-05,Sabritas,16.52,376
+Maiz Inflado Familiar,7500924,Snacks,2028-02-11,NaturaBio,56.4,323
+Pizza Queso,7500925,Congelados,2025-04-08,AlimentaVida,119.43,238
+Pizza Queso 500g,7500926,Congelados,2027-01-23,McCain,23.34,334
+Pizza Queso 1kg,7500927,Congelados,2026-09-03,EcoStar,21.2,301
+Pizza Queso Light,7500928,Congelados,2025-04-22,NaturaBio,101.46,282
+Pizza Queso Premium,7500929,Congelados,2026-12-08,Marca Propia,22.03,309
+Pizza Queso Familiar,7500930,Congelados,2026-12-04,Fresko,85.5,359
+Pizza Pepperoni,7500931,Congelados,2025-10-01,NaturaBio,20.89,379
+Pizza Pepperoni 500g,7500932,Congelados,2025-01-04,EcoStar,16.93,144
+Pizza Pepperoni 1kg,7500933,Congelados,2027-01-23,NutriPlus,78.37,107
+Pizza Pepperoni Light,7500934,Congelados,2026-07-12,NaturaBio,23.68,90
+Pizza Pepperoni Premium,7500935,Congelados,2028-07-07,VidaMax,53.95,477
+Pizza Pepperoni Familiar,7500936,Congelados,2026-10-16,NutriPlus,27.32,461
+Nuggets Pollo,7500937,Congelados,2025-08-03,SuperMax,7.47,173
+Nuggets Pollo 500g,7500938,Congelados,2026-07-28,Findus,90.76,289
+Nuggets Pollo 1kg,7500939,Congelados,2028-08-06,Generico,118.8,145
+Nuggets Pollo Light,7500940,Congelados,2025-01-21,Fresko,11.79,323
+Nuggets Pollo Premium,7500941,Congelados,2027-03-28,SuperMax,5.76,145
+Nuggets Pollo Familiar,7500942,Congelados,2026-11-23,EcoStar,51.19,385
+Dedos de Pescado,7500943,Congelados,2028-12-05,FreshCo,13.98,206
+Dedos de Pescado 500g,7500944,Congelados,2026-02-14,Igloo,81.58,295
+Dedos de Pescado 1kg,7500945,Congelados,2025-12-08,EcoStar,99.57,183
+Dedos de Pescado Light,7500946,Congelados,2026-04-21,AlimentaVida,111.95,233
+Dedos de Pescado Premium,7500947,Congelados,2025-09-21,Generico,89.46,55
+Dedos de Pescado Familiar,7500948,Congelados,2027-08-01,FreshCo,31.61,18
+Burrito Congelado,7500949,Congelados,2028-05-25,FreshCo,52.84,44
+Burrito Congelado 500g,7500950,Congelados,2027-08-19,Generico,76.88,98
+Burrito Congelado 1kg,7500951,Congelados,2026-03-01,McCain,89.7,55
+Burrito Congelado Light,7500952,Congelados,2027-06-03,FreshCo,19.96,258
+Burrito Congelado Premium,7500953,Congelados,2026-01-24,SuperMax,41.13,365
+Burrito Congelado Familiar,7500954,Congelados,2028-09-06,SuperMax,71.88,463
+Papas a la Francesa,7500955,Congelados,2026-11-22,NaturaBio,9.1,198
+Papas a la Francesa 500g,7500956,Congelados,2027-07-01,Generico,13.14,426
+Papas a la Francesa 1kg,7500957,Congelados,2028-12-28,McCain,11.04,183
+Papas a la Francesa Light,7500958,Congelados,2028-07-01,AlimentaVida,118.04,302
+Papas a la Francesa Premium,7500959,Congelados,2025-05-01,Igloo,96.14,396
+Papas a la Francesa Familiar,7500960,Congelados,2027-07-27,Igloo,65.25,301
+Helado Vainilla,7500961,Congelados,2025-08-07,PureFarm,114.0,118
+Helado Vainilla 500g,7500962,Congelados,2027-06-21,SuperMax,8.99,197
+Helado Vainilla 1kg,7500963,Congelados,2026-12-16,FreshCo,98.32,5
+Helado Vainilla Light,7500964,Congelados,2025-10-09,VidaMax,66.27,11
+Helado Vainilla Premium,7500965,Congelados,2028-02-02,AlimentaVida,7.05,256
+Helado Vainilla Familiar,7500966,Congelados,2028-07-21,PureFarm,14.17,296
+Helado Chocolate,7500967,Congelados,2025-08-14,EcoStar,88.66,297
+Helado Chocolate 500g,7500968,Congelados,2025-09-09,Fresko,98.92,355
+Helado Chocolate 1kg,7500969,Congelados,2026-05-07,SuperMax,52.57,70
+Helado Chocolate Light,7500970,Congelados,2025-10-04,Fresko,16.85,493
+Helado Chocolate Premium,7500971,Congelados,2025-04-04,McCain,11.03,43
+Helado Chocolate Familiar,7500972,Congelados,2026-09-12,Generico,67.4,492
+Helado Fresa,7500973,Congelados,2025-08-22,FreshCo,78.63,361
+Helado Fresa 500g,7500974,Congelados,2025-04-14,Igloo,99.27,130
+Helado Fresa 1kg,7500975,Congelados,2025-12-15,VidaMax,83.84,392
+Helado Fresa Light,7500976,Congelados,2025-07-01,Fresko,109.67,159
+Helado Fresa Premium,7500977,Congelados,2025-05-27,NaturaBio,66.7,43
+Helado Fresa Familiar,7500978,Congelados,2027-02-24,NaturaBio,48.8,450
+Paleta Mango,7500979,Congelados,2027-06-23,PureFarm,81.54,260
+Paleta Mango 500g,7500980,Congelados,2025-02-02,FreshCo,65.67,468
+Paleta Mango 1kg,7500981,Congelados,2025-08-21,NutriPlus,12.47,166
+Paleta Mango Light,7500982,Congelados,2026-11-16,VidaMax,4.48,202
+Paleta Mango Premium,7500983,Congelados,2026-09-09,Igloo,75.89,35
+Paleta Mango Familiar,7500984,Congelados,2026-08-09,Generico,16.32,259
+Paleta Coco,7500985,Congelados,2027-11-22,Birds Eye,88.55,285
+Paleta Coco 500g,7500986,Congelados,2025-07-25,McCain,34.0,330
+Paleta Coco 1kg,7500987,Congelados,2026-07-03,PureFarm,69.51,219
+Paleta Coco Light,7500988,Congelados,2027-06-16,VidaMax,25.81,324
+Paleta Coco Premium,7500989,Congelados,2025-11-04,Findus,46.17,281
+Paleta Coco Familiar,7500990,Congelados,2025-08-12,Generico,75.0,183
+Lasagna Congelada,7500991,Congelados,2028-02-20,AlimentaVida,4.98,73
+Lasagna Congelada 500g,7500992,Congelados,2028-10-27,NutriPlus,11.33,496
+Lasagna Congelada 1kg,7500993,Congelados,2026-07-24,NaturaBio,49.44,117
+Lasagna Congelada Light,7500994,Congelados,2025-05-02,Igloo,8.49,435
+Lasagna Congelada Premium,7500995,Congelados,2025-12-15,Findus,62.01,147
+Lasagna Congelada Familiar,7500996,Congelados,2025-01-24,PureFarm,59.88,496
+Waffles,7500997,Congelados,2027-01-02,AlimentaVida,112.04,217
+Waffles 500g,7500998,Congelados,2026-06-06,FreshCo,99.53,338
+Waffles 1kg,7500999,Congelados,2025-01-19,AlimentaVida,34.8,467
+Waffles Light,7501000,Congelados,2027-03-11,Marca Propia,7.35,350
+Waffles Premium,7501001,Congelados,2027-07-25,EcoStar,56.99,211
+Waffles Familiar,7501002,Congelados,2028-04-19,FreshCo,103.55,449
+Panqueques,7501003,Congelados,2025-05-27,PureFarm,10.22,47
+Panqueques 500g,7501004,Congelados,2026-06-24,FreshCo,107.81,408
+Panqueques 1kg,7501005,Congelados,2025-09-19,Findus,107.11,361
+Panqueques Light,7501006,Congelados,2028-06-15,VidaMax,90.82,254
+Panqueques Premium,7501007,Congelados,2026-03-27,Generico,102.46,139
+Panqueques Familiar,7501008,Congelados,2027-12-08,Igloo,12.37,230
+Corn Flakes,7501009,Cereales,2025-05-01,EcoStar,11.75,198
+Corn Flakes 500g,7501010,Cereales,2025-12-16,AlimentaVida,89.44,171
+Corn Flakes 1kg,7501011,Cereales,2028-06-28,Marca Propia,32.6,22
+Corn Flakes Light,7501012,Cereales,2026-10-03,FreshCo,107.68,234
+Corn Flakes Premium,7501013,Cereales,2026-03-15,PureFarm,85.83,51
+Corn Flakes Familiar,7501014,Cereales,2026-11-20,EcoStar,74.54,395
+Zucaritas,7501015,Cereales,2027-06-26,General Mills,48.81,420
+Zucaritas 500g,7501016,Cereales,2026-06-21,PureFarm,24.1,238
+Zucaritas 1kg,7501017,Cereales,2026-05-23,NutriPlus,68.54,448
+Zucaritas Light,7501018,Cereales,2027-03-24,AlimentaVida,118.55,261
+Zucaritas Premium,7501019,Cereales,2026-08-17,SuperMax,37.77,45
+Zucaritas Familiar,7501020,Cereales,2028-04-20,General Mills,97.16,393
+Choco Krispis,7501021,Cereales,2025-10-14,Quaker,64.37,363
+Choco Krispis 500g,7501022,Cereales,2027-09-20,Post,75.63,179
+Choco Krispis 1kg,7501023,Cereales,2028-09-14,VidaMax,46.63,337
+Choco Krispis Light,7501024,Cereales,2025-11-09,FreshCo,17.36,275
+Choco Krispis Premium,7501025,Cereales,2027-04-05,PureFarm,86.16,479
+Choco Krispis Familiar,7501026,Cereales,2026-06-20,Kelloggs,46.82,94
+Granola Natural,7501027,Cereales,2027-05-19,Post,43.0,460
+Granola Natural 500g,7501028,Cereales,2028-01-24,NaturaBio,10.4,151
+Granola Natural 1kg,7501029,Cereales,2027-08-23,VidaMax,13.8,276
+Granola Natural Light,7501030,Cereales,2028-08-02,Post,7.92,107
+Granola Natural Premium,7501031,Cereales,2028-09-16,General Mills,78.98,137
+Granola Natural Familiar,7501032,Cereales,2027-04-22,AlimentaVida,83.88,94
+Avena Instantanea,7501033,Cereales,2026-07-18,VidaMax,85.08,42
+Avena Instantanea 500g,7501034,Cereales,2025-08-26,NaturaBio,69.15,26
+Avena Instantanea 1kg,7501035,Cereales,2027-03-08,VidaMax,45.36,335
+Avena Instantanea Light,7501036,Cereales,2027-12-11,Post,67.95,180
+Avena Instantanea Premium,7501037,Cereales,2025-05-07,Kelloggs,20.76,57
+Avena Instantanea Familiar,7501038,Cereales,2026-04-08,FreshCo,89.16,33
+Avena Tradicional,7501039,Cereales,2026-06-09,NutriPlus,68.6,25
+Avena Tradicional 500g,7501040,Cereales,2025-06-14,FreshCo,15.58,339
+Avena Tradicional 1kg,7501041,Cereales,2027-07-25,FreshCo,119.73,168
+Avena Tradicional Light,7501042,Cereales,2027-09-25,Marca Propia,119.74,266
+Avena Tradicional Premium,7501043,Cereales,2028-01-23,VidaMax,54.83,17
+Avena Tradicional Familiar,7501044,Cereales,2028-08-24,SuperMax,58.0,138
+Muesli,7501045,Cereales,2026-04-11,General Mills,83.9,192
+Muesli 500g,7501046,Cereales,2028-07-27,PureFarm,95.78,219
+Muesli 1kg,7501047,Cereales,2027-11-21,SuperMax,77.68,466
+Muesli Light,7501048,Cereales,2025-12-03,General Mills,87.64,99
+Muesli Premium,7501049,Cereales,2026-07-09,Nestle,72.98,387
+Muesli Familiar,7501050,Cereales,2027-09-19,Marca Propia,13.5,368
+Cheerios,7501051,Cereales,2026-03-04,NaturaBio,102.97,447
+Cheerios 500g,7501052,Cereales,2026-04-27,SuperMax,70.43,318
+Cheerios 1kg,7501053,Cereales,2028-07-04,Generico,36.13,146
+Cheerios Light,7501054,Cereales,2026-05-02,Nestle,90.19,462
+Cheerios Premium,7501055,Cereales,2026-06-17,NaturaBio,8.32,142
+Cheerios Familiar,7501056,Cereales,2026-04-17,Nestle,82.78,145
+Special K,7501057,Cereales,2027-10-26,VidaMax,97.55,322
+Special K 500g,7501058,Cereales,2028-03-27,EcoStar,12.4,394
+Special K 1kg,7501059,Cereales,2025-06-09,AlimentaVida,107.06,451
+Special K Light,7501060,Cereales,2028-07-22,EcoStar,40.45,182
+Special K Premium,7501061,Cereales,2027-04-07,Kelloggs,36.5,382
+Special K Familiar,7501062,Cereales,2026-04-12,VidaMax,61.84,107
+All Bran,7501063,Cereales,2027-11-02,NutriPlus,77.91,249
+All Bran 500g,7501064,Cereales,2028-06-08,Post,24.44,14
+All Bran 1kg,7501065,Cereales,2026-05-27,Marca Propia,9.48,389
+All Bran Light,7501066,Cereales,2028-08-15,SuperMax,78.81,251
+All Bran Premium,7501067,Cereales,2028-11-15,FreshCo,18.53,147
+All Bran Familiar,7501068,Cereales,2025-08-14,Kelloggs,82.09,13
+Granola con Frutos,7501069,Cereales,2026-01-02,Post,14.75,430
+Granola con Frutos 500g,7501070,Cereales,2028-01-24,NutriPlus,109.44,18
+Granola con Frutos 1kg,7501071,Cereales,2025-07-10,General Mills,18.79,439
+Granola con Frutos Light,7501072,Cereales,2025-08-01,Nestle,64.59,122
+Granola con Frutos Premium,7501073,Cereales,2026-05-08,Post,28.56,364
+Granola con Frutos Familiar,7501074,Cereales,2025-07-21,NutriPlus,31.69,73
+Cereal Arroz,7501075,Cereales,2025-02-21,PureFarm,92.31,397
+Cereal Arroz 500g,7501076,Cereales,2028-03-07,AlimentaVida,87.09,51
+Cereal Arroz 1kg,7501077,Cereales,2026-07-17,Generico,11.37,207
+Cereal Arroz Light,7501078,Cereales,2027-02-20,EcoStar,78.8,45
+Cereal Arroz Premium,7501079,Cereales,2028-12-22,Marca Propia,108.74,396
+Cereal Arroz Familiar,7501080,Cereales,2026-01-03,Kelloggs,119.08,173
+Cereal Trigo,7501081,Cereales,2025-09-15,EcoStar,104.72,195
+Cereal Trigo 500g,7501082,Cereales,2026-10-05,Marca Propia,73.66,420
+Cereal Trigo 1kg,7501083,Cereales,2025-01-13,General Mills,71.0,321
+Cereal Trigo Light,7501084,Cereales,2025-06-01,NutriPlus,53.53,302
+Cereal Trigo Premium,7501085,Cereales,2026-01-27,Nestle,18.47,142
+Cereal Trigo Familiar,7501086,Cereales,2028-01-02,Nestle,36.57,278
+Copos de Avena,7501087,Cereales,2026-01-17,General Mills,68.91,79
+Copos de Avena 500g,7501088,Cereales,2027-04-06,Quaker,41.94,12
+Copos de Avena 1kg,7501089,Cereales,2025-01-11,PureFarm,118.28,266
+Copos de Avena Light,7501090,Cereales,2025-03-23,NutriPlus,76.51,67
+Copos de Avena Premium,7501091,Cereales,2027-06-10,Kelloggs,57.55,55
+Copos de Avena Familiar,7501092,Cereales,2028-07-27,Post,33.09,13
+Producto Corrupto,7501093,Abarrotes,2026-01-01,Test,NOPRECIO,10
+Fila Incompleta,7501094,Bebidas
+Duplicado,7500001,Lacteos,2026-01-01,Marca,10.00,5

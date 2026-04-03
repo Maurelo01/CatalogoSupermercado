@@ -263,17 +263,17 @@ class ArbolBMas
                 {
                     if (hoja->claves[i] == categoria)
                     {
-                        cout << " PRODUCTOS EN LA CATEGORIA " << categoria << ":\n";
+                        cout << " PRODUCTOS EN LA CATEGORIA " << categoria << ":" << endl;
                         ListaCategoria* actual = hoja->listas[i];
                         while (actual)
                         {
-                            cout << " - " << actual->producto->nombre << " (Código de barra: " << actual->producto->codigo_barra << ", Precio: Q" << actual->producto->precio << ")\n";
+                            cout << " - " << actual->producto->nombre << " (Código de barra: " << actual->producto->codigo_barra << ", Precio: Q" << actual->producto->precio << ")" << endl;
                             actual = actual->siguiente;
                         }
                         return;
                     }
                 }
-                cout << "No se encontraron productos en la categoría " << categoria << ".\n";
+                cout << "No se encontraron productos en la categoría " << categoria << "." << endl;
             }
 
             void crearGrafico(const string& nombreArchivo)
